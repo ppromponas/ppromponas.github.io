@@ -21,7 +21,7 @@ _Yale University (2020-2021)_
 _National Technical University of Athens (2013-2019) \
 Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00)_**
 
-**General Lyceum Apolytirion (Grade 19.10/20.00)** \
+**General Lyceum Apolytirion** \
 _B’ Arsakeio Lykeio Psychikou (2001-2013)_ 
 
  &nbsp;
