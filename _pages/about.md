@@ -8,4 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-TTT
+## About Me
+
+
+
+### Scheduling & Routing in Networks
+
+#### Quantum Networks
+
+#### Sectorized Directional Wireless Networks
+
+
+
+## Research
+
+### Resource Allocation & Network Economics
+
+#### Power Control
+
+#### Network Slicing in 5G
+
+
+
+## Conctact
+
+Panagiotis Promponas \
+Departement of Electrical Engineering, Yale University \
+17 Hillhouse, New Haven, CT, 06511 \
+[panagiotis.promponas@yale.edu](mailto:panagiotis.promponas@yale.edu)
