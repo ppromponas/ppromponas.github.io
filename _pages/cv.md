@@ -38,3 +38,20 @@ Yale University_
 _Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering, \
 National Technical University of Athens_
 
+
+## Certificates
+
+**Neural Networks and Deep Learning** \
+[_Deeplearning.ai - Coursera, March 2019_](https://www.coursera.org/account/accomplishments/verify/RZLGWZ32TPEP)
+
+**Machine Learning** \
+[_Stanford University - Coursera, May 2018_](https://www.coursera.org/account/accomplishments/verify/C2LG3YTLFKBD)
+
+
+## Miscellaneous
+
+```
+Reviewer for the IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) 
+Reviewer for the IEEE Military Communications Conference (MILCOM) 
+Reviewer for the 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt ’22)
+```
