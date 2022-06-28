@@ -9,51 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Education
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+**Doctor of Philosophy in Electrical Engineering**
+_Yale University (2020-2025)_
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Master of Science in Electrical Engineering (Grade: Honours)**
+_Yale University (2020-2021)_
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Diploma in Electrical and Computer Engineering (Grade 8.78/10.00)**
+_National Technical University of Athens (2013-2019)
+Specialization: Computer Science, Mathematics and Networks (_ **_Grade 9.55/10.00)_**
+
+**General Lyceum Apolytirion (Grade 19.10/20.00)**
+_B’ Arsakeio Lykeio Psychikou (2001-2013)_
+
+## Experience
+
+**Graduate Research Assistant (Aug 2020 - Present)**
+_Yale Institute for Network Science (YINS),
+Yale University_
+
+**Graduate Teaching Fellow (Jan 2022 - May 2022)**
+_EENG 310: Signals and Systems,
+Yale University_
+
+**Research Assistant (April 2019 - August 2020)**
+_Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering,
+National Technical University of Athens_
+
