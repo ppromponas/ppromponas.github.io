@@ -22,7 +22,12 @@ _National Technical University of Athens (2013-2019) \
 Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00)_**
 
 **General Lyceum Apolytirion (Grade 19.10/20.00)** \
-_B’ Arsakeio Lykeio Psychikou (2001-2013)_
+_B’ Arsakeio Lykeio Psychikou (2001-2013)_ 
+
+ &nbsp;
+
+
+
 
 # Experience
 
@@ -38,6 +43,7 @@ Yale University_
 _Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering, \
 National Technical University of Athens_
 
+ &nbsp;
 
 # Certificates
 
@@ -47,7 +53,8 @@ National Technical University of Athens_
 **Machine Learning** \
 [_Stanford University - Coursera, May 2018_](https://www.coursera.org/account/accomplishments/verify/C2LG3YTLFKBD)
 
-
+ &nbsp;
+ 
 # Miscellaneous
 
 ```
@@ -55,11 +62,14 @@ Reviewer for the IEEE International Workshop on Signal Processing Advances in Wi
 Reviewer for the IEEE Military Communications Conference (MILCOM) 
 Reviewer for the 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt ’22)
 ```
-
+ &nbsp;
+ 
 # Honors & Awards
 
 You can find the _Honors & Awards_ in this [tab](https://ppromponas.github.io/portfolio/).
 
+ &nbsp;
+ 
 # Publications
 
 You can find the _Publications_ in this [tab](https://ppromponas.github.io/publications/).
