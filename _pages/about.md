@@ -12,15 +12,18 @@ redirect_from:
 
 
 
+
+
+
+
+## Research
+
 ### Scheduling & Routing in Networks
 
 #### Quantum Networks
 
 #### Sectorized Directional Wireless Networks
 
-
-
-## Research
 
 ### Resource Allocation & Network Economics
 
