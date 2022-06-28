@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -15,7 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Test markdown:
+Test markdown: -->
 
 # Publications
 
@@ -24,5 +24,12 @@ Test markdown:
 Pelekis, C., **Promponas, P.**, Alvarado, J., Tsiropoulou, E. E., & Papavassiliou, S. [A Fragile multi-CPR Game](https://arxiv.org/pdf/2102.12820.pdf).
 Mathematical Methods of Operations Research (Springer). 
 
+**Promponas, P.**, Pelekis, C., Tsiropoulou, E. E., & Papavassiliou, S. (2021, June). [Games in Normal and Satisfaction Form for Efficient Transmission Power Allocation under Dual 5G Wireless Multiple Access Paradigm]{https://www.researchgate.net/profile/Eirini-Eleni-Tsiropoulou/publication/353391615_Games_in_Normal_and_Satisfaction_Form_for_Efficient_Transmission_Power_Allocation_Under_Dual_5G_Wireless_Multiple_Access_Paradigm/links/61033f451e95fe241a98e50d/Games-in-Normal-and-Satisfaction-Form-for-Efficient-Transmission-Power-Allocation-Under-Dual-5G-Wireless-Multiple-Access-Paradigm.pdf?origin=profileFeaturedResearchPublicationItem}. IEEE/ACM Transactions on Networking.
+
+
 
 ## Conferences
+
+
+
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
