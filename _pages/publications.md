@@ -21,7 +21,7 @@ Test markdown:
 
 ## Journals
 
-Pelekis, C., Promponas, P., Alvarado, J., Tsiropoulou, E. E., \& Papavassiliou, S. \href{https://arxiv.org/pdf/2102.12820.pdf}{A Fragile multi-CPR Game}.
+Pelekis, C., Promponas, P., Alvarado, J., Tsiropoulou, E. E., & Papavassiliou, S. [A Fragile multi-CPR Game](https://arxiv.org/pdf/2102.12820.pdf).
 Mathematical Methods of Operations Research (Springer). 
 
 
