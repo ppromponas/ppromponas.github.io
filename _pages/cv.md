@@ -11,30 +11,30 @@ redirect_from:
 
 ## Education
 
-**Doctor of Philosophy in Electrical Engineering**
+**Doctor of Philosophy in Electrical Engineering** \
 _Yale University (2020-2025)_
 
-**Master of Science in Electrical Engineering (Grade: Honours)**
+**Master of Science in Electrical Engineering (Grade: Honours)** \
 _Yale University (2020-2021)_
 
-**Diploma in Electrical and Computer Engineering (Grade 8.78/10.00)**
-_National Technical University of Athens (2013-2019)
-Specialization: Computer Science, Mathematics and Networks (_ **_Grade 9.55/10.00)_**
+**Diploma in Electrical and Computer Engineering (Grade 8.78/10.00)** \
+_National Technical University of Athens (2013-2019) \
+Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00)_**
 
-**General Lyceum Apolytirion (Grade 19.10/20.00)**
+**General Lyceum Apolytirion (Grade 19.10/20.00)** \
 _B’ Arsakeio Lykeio Psychikou (2001-2013)_
 
 ## Experience
 
-**Graduate Research Assistant (Aug 2020 - Present)**
-_Yale Institute for Network Science (YINS),
+**Graduate Research Assistant (Aug 2020 - Present)** \
+_Yale Institute for Network Science (YINS), \
 Yale University_
 
-**Graduate Teaching Fellow (Jan 2022 - May 2022)**
-_EENG 310: Signals and Systems,
+**Graduate Teaching Fellow (Jan 2022 - May 2022)** \
+_EENG 310: Signals and Systems, \
 Yale University_
 
-**Research Assistant (April 2019 - August 2020)**
-_Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering,
+**Research Assistant (April 2019 - August 2020)** \
+_Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering, \
 National Technical University of Athens_
 
