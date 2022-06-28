@@ -55,3 +55,11 @@ Reviewer for the IEEE International Workshop on Signal Processing Advances in Wi
 Reviewer for the IEEE Military Communications Conference (MILCOM) 
 Reviewer for the 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt ’22)
 ```
+
+## Honors & Awards
+
+You can find the _Honors & Awards_ in this [tab](https://ppromponas.github.io/portfolio/).
+
+## Publications
+
+You can find the _Publications_ in this [tab](https://ppromponas.github.io/publications/).
