@@ -59,15 +59,15 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
     
 
     
+<div class="row mb-4">
+            <h3 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h3>
+        </div>
 
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row tm-mb-90 tm-gallery">
 
-          <div class="row mb-4">
-            <h3 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h3>
-        </div>
-
-        	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+          
+        	<div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
@@ -80,7 +80,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     <span></span>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+            <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
