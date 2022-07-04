@@ -77,7 +77,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
 
     <div class="container-fluid tm-container-content tm-mt-60">
       <div class="row mb-4">
-            <h3 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h3>
+            <h2 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h2>
         </div>
         <div class="row tm-mb-90 tm-gallery">
 
@@ -91,7 +91,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">Quantum Networks for the Quantum Internet</span>
+                    <span class="tm-text">Quantum Networks for the Quantum Internet</span>
                     <span></span>
                 </div>
             </div>
@@ -104,7 +104,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">Directional Sectorized mmWave Networks</span>
+                    <span class="tm-text">Directional Sectorized mmWave Networks</span>
                     <span></span>
                 </div>
             </div>
@@ -133,11 +133,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-bold">Satisfaction Form Games </span>
-                    <span></span>
-                </div>
-                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text">  &nbsp; &nbsp; for Network Resource Allocation</span>
+                    <span class="tm-text">Satisfaction Form Games for Network Resource Allocation</span>
                     <span></span>
                 </div>
             </div>
@@ -150,7 +146,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">Mechanism Design in 5G Network Slicing</span>
+                    <span class="tm-text">Mechanism Design in 5G Network Slicing</span>
                     <span></span>
                 </div>
             </div>
