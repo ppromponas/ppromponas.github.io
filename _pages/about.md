@@ -20,7 +20,7 @@ redirect_from:
 
 
 
-<body>
+
     <!-- Page Loader -->
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -122,7 +122,7 @@ redirect_from:
             $('body').addClass('loaded');
         });
     </script>
-</body>
+
 
 
   
