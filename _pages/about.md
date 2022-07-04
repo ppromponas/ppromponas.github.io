@@ -84,7 +84,7 @@ redirect_from:
                     <img src="_pages/img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
@@ -104,7 +104,7 @@ redirect_from:
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
@@ -121,7 +121,7 @@ redirect_from:
                     <img src="_pages/img/auction.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
-                        <a href="photo-detail.html">View more</a>
+                        <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
