@@ -137,7 +137,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     <span></span>
                 </div>
                  <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">  &nbsp; &nbsp; for Network Resource Allocation</span>
+                    <span class="tm-text">  &nbsp; &nbsp; for Network Resource Allocation</span>
                     <span></span>
                 </div>
             </div>
