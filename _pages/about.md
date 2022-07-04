@@ -12,7 +12,7 @@ redirect_from:
 
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems by harnessing computer-theoretic tools. 
 
-My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We focus 
+My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
     
 
   
@@ -96,6 +96,11 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             </div> <!-- row -->
             </div> <!-- container-fluid, tm-container-content -->
 
+   <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Resource Allocation with (Algorithmic) Game Theory</h2>
+        </div>
+  
+  
             <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row tm-mb-90 tm-gallery">
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
