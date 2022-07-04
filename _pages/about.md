@@ -44,9 +44,7 @@ redirect_from:
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="/stylesheets/styles_provider.css">
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css">
+<link rel="stylesheet" href="_pages/css/templatemo-style.css">
 </head>
 <body>
     <!-- Page Loader -->
