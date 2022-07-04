@@ -75,7 +75,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
         </div>
 
 
-    <div class="container-fluid tm-container-content tm-mt-60">
+    <div class="container-fluid tm-container-content tm-mt-60 flex-wrap">
       <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h2>
         </div>
@@ -117,7 +117,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
        
   
   
-            <div class="container-fluid tm-container-content tm-mt-60">
+            <div class="container-fluid tm-container-content tm-mt-60 flex-wrap">
         <div class="row tm-mb-90 tm-gallery">
           
           <div class="row mb-4">
