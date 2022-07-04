@@ -44,7 +44,7 @@ redirect_from:
 
         	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="./img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
+                    <img src="_pages/img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
                         <a href="quantum-detail.html">View more</a>
