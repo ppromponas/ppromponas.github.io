@@ -144,7 +144,7 @@ redirect_from:
     
     
     
-    <script src="js/plugins.js"></script>
+    <script src="_pages/js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');
