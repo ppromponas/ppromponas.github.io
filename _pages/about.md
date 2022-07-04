@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome!"
+title: "About Me"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -9,9 +9,10 @@ redirect_from:
 ---
 
 
-## About Me
 
-I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu).
+I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems by harnessing computer-theoretic tools. 
+
+My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We focus 
     
 
   
