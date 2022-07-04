@@ -67,7 +67,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             <h2 class="col-12 tm-text-primary">Routing and Sceduling Algorithms</h2>
         </div>
 
-        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+        	<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
@@ -80,7 +80,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     <span></span>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
@@ -108,7 +108,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             <h2 class="col-12 tm-text-primary">Resource Allocation and Network Economics</h2>
         </div>
           
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
@@ -125,7 +125,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     <span></span>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/auction.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
