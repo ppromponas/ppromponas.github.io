@@ -72,7 +72,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>View &nbsp; more</h2>
+                        <h2>Quantum &nbsp; Networks</h2>
                         <a href="_pages/quantum-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
@@ -85,7 +85,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>View &nbsp; more</h2>
+                        <h2>Directional &nbsp; Networks</h2>
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
@@ -113,7 +113,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>View &nbsp; more</h2>
+                        <h2>Resource &nbsp; Allocation &nbsp; SF &nbsp; Games</h2>
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
@@ -130,7 +130,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/auction.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>View &nbsp; more</h2>
+                        <h2>Network &nbsp; Slicing</h2>
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
