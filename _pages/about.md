@@ -106,7 +106,7 @@ redirect_from:
                     <span></span>
                 </div>
                  <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light"> &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; for Network Resource Allocation</span>
+                    <span class="tm-text-gray-light"> &nbsp; &nbsp; &nbsp; &nbsp; for Network Resource Allocation</span>
                     <span></span>
                 </div>
             </div>
