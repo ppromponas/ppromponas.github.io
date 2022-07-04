@@ -47,7 +47,7 @@ redirect_from:
                     <img src="_pages/img/QuantumProcessor.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
-                        <a href="quantum-detail.html">View more</a>
+                        <a href="_pages/quantum-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
