@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 
+## About Me
 
+I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu).
     
 
   
@@ -150,7 +152,7 @@ redirect_from:
 </html>
 
   
-## About Me
+
 
 ## Research
 
