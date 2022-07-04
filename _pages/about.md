@@ -91,7 +91,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text">Quantum Networks for the Quantum Internet</span>
+                    <span class="tm-text">Quantum Networks & Quantum Internet</span>
                     <span></span>
                 </div>
             </div>
