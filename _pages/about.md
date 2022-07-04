@@ -15,6 +15,8 @@ I am a second year Ph.D. student at Yale's Electrical Engineering department. I 
 My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
     
 
+## Research
+
   
 <html lang="en">
 <head>
@@ -97,7 +99,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             </div> <!-- container-fluid, tm-container-content -->
 
    <div class="row mb-4">
-            <h2 class="col-12 tm-text-primary">Resource Allocation with (Algorithmic) Game Theory</h2>
+            <h2 class="col-12 tm-text-primary">Resource Allocation and Network Economics</h2>
         </div>
   
   
@@ -160,20 +162,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
   
 
 
-## Research
 
-### Scheduling & Routing in Networks
-
-#### Quantum Networks
-
-#### Sectorized Directional Wireless Networks
-
-
-### Resource Allocation & Network Economics
-
-#### Power Control
-
-#### Network Slicing in 5G
 
 
 
