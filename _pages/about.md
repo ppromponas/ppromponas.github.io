@@ -97,7 +97,7 @@ redirect_from:
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>View &nbsp more</h2>
+                        <h2>View more</h2>
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
