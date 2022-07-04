@@ -128,7 +128,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                 <figure class="effect-ming tm-video-item">
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Resource &nbsp; Allocation &nbsp; SF &nbsp; Games</h2>
+                        <h2>Satisfaction &nbsp; Form &nbsp; &nbsp; Games</h2>
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
