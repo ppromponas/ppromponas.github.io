@@ -57,7 +57,7 @@ redirect_from:
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
+                    <img src="_pages/img/mmwavenetworks.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
                         <a href="photo-detail.html">View more</a>
@@ -77,7 +77,7 @@ redirect_from:
         <div class="row tm-mb-90 tm-gallery">
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/test.jpg" alt="Image" class="img-fluid">
+                    <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
                         <a href="photo-detail.html">View more</a>
@@ -94,7 +94,7 @@ redirect_from:
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
-                    <img src="img/auction.jpg" alt="Image" class="img-fluid">
+                    <img src="_pages/img/auction.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>View &nbsp more</h2>
                         <a href="photo-detail.html">View more</a>
