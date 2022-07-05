@@ -70,9 +70,9 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
         </div> -->
   
   
-          <div class="row mb-4">
+<!--           <div class="row mb-4">
             <h1>&nbsp; Research</h1>
-        </div>
+        </div> -->
 
 
     <div class="container-fluid tm-container-content tm-mt-60" style="margin-top: -5px;">
