@@ -14,7 +14,7 @@ redirect_from:
 
 <h1>About Me</h1>
 <br>
-<span style="margin-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
+<span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 </span>
 
