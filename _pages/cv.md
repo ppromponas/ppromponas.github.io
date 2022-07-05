@@ -78,17 +78,17 @@ You can find the _Publications_ in this [tab](https://ppromponas.github.io/publi
 # Pre-Prints
 
 
-**Promponas, P.**, Pelekis, C., Tsiropoulou, E. E., \& Papavassiliou, S. "\textit{Risk-Aware Satisfaction Equilibria in Resource Sharing Games under the Fragility of the Commons}"  To Be Submitted, Preprint not available.
+**Promponas, P.**, Pelekis, C., Tsiropoulou, E. E., & Papavassiliou, S. "Risk-Aware Satisfaction Equilibria in Resource Sharing Games under the Fragility of the Commons"  To Be Submitted, Preprint not available.
 
 
 
-**Promponas, P.** \& Tassiulas, L. "\textit{Learning the Competitive Equilibrium of the 5G Network Slicing Market.}" To Be Submitted, Preprint not available.
+**Promponas, P.** & Tassiulas, L. "Learning the Competitive Equilibrium of the 5G Network Slicing Market." To Be Submitted, Preprint not available.
  
 
-**Promponas, P.**, Valls, V., \& Tassiulas, L. "\textit{Quantum Switch with Memory Constraints.}" To Be Submitted, Preprint not available.
+**Promponas, P.**, Valls, V., & Tassiulas, L. "Quantum Switch with Memory Constraints." To Be Submitted, Preprint not available.
 
 
- **Promponas, P.**, Chen, T., \& Tassiulas, L. "\textit{Optimization of Sectorized Millimeter-wave Backhaul Networks: Model, Analysis, and Algorithm.}"  Submitted, Preprint not available.
+ **Promponas, P.**, Chen, T., & Tassiulas, L. "Optimization of Sectorized Millimeter-wave Backhaul Networks: Model, Analysis, and Algorithm."  Submitted, Preprint not available.
 
 
-Valls, V., **Promponas, P.**, \& Tassiulas, L. "\textit{On the Capacity of the Quantum Switch.}"  Submitted, Preprint not available.
+Valls, V., **Promponas, P.**, & Tassiulas, L. "On the Capacity of the Quantum Switch."  Submitted, Preprint not available.
