@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<span style="color:green;font-weight:700;font-size:20px">
+<span style="font-weight:700;font-size:20px">
     markdown color font styles
 </span>
 
