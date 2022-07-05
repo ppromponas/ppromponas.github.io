@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
 
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 
