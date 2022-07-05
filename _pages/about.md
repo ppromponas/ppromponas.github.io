@@ -15,11 +15,11 @@ redirect_from:
 <h1>About Me</h1>
 <br>
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
-I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
+I am a second year Ph.D. student at Yale's Electrical Engineering department where I recently received my M.Sc.. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We are currently working on the development of scheduling and routing policies for Quantum Networks as well as for Wireless Directional Netorks.  
 </span>
 
 <span style="color:LightSlateGray;font-weight:600;font-size:19px">
-My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
+Prior to Yale, I did my undergraduate studies at the National Technical University of Athens (NTUA) in Greece, where I got a 5-year diploma degree in Electrical and Computer Engineering, with specializations in Networks, Computer Science and Mathematics. My diploma thesis was centered around Game Theoretic approaches for the uplink power control problem in wireless networks and my supervisor was Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). After that, I worked for a year as a Research Assistant in the Network Management and Optimal Design Laboratory at NTUA.
 </span>
 
 <span style="margin-top: 20px;">&nbsp;</span>
