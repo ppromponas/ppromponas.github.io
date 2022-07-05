@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="margin-top: 5px">&nbsp;</p>
+<p style="margin-top: 5px;">&nbsp;</p>
 <span style="font-weight:700;font-size:20px">
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 </span>
@@ -16,11 +16,11 @@ I am a second year Ph.D. student at Yale's Electrical Engineering department. I 
 My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
 </span>
 
-<p style="margin-top: 20px">&nbsp;</p>
+<span style="margin-top: 20px;">&nbsp;</span>
     
 # Research
 
-<p style="margin-top: 5px">&nbsp;</p>
+<p style="margin-top: 5px;">&nbsp;</p>
   
 <html lang="en">
 <head>
