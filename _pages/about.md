@@ -1,13 +1,19 @@
 ---
 permalink: /
-title: "About"
-excerpt: "About"
+title: ""
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<p style="margin-top: 5px;">&nbsp;</p>
+
+
+
+<!-- <p style="margin-top: 5px;">&nbsp;</p> -->
+
+<h1 style="margin-bottom:10px;">About Me</h1>
+
 <span style="font-weight:700;font-size:20px">
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 </span>
