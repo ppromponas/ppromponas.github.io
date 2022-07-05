@@ -117,7 +117,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
        
   
   
-            <div class="container-fluid tm-container-content tm-mt-60 flex-wrap" style="margin-top: -60px;">
+            <div class="container-fluid tm-container-content tm-mt-60" style="margin-top: -60px;">
         <div class="row tm-mb-90 tm-gallery">
           
           <div class="row mb-4">
