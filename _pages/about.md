@@ -58,7 +58,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
     </div>
     
 
-     <div class="row mb-4">
+<!--      <div class="row mb-4">
             <h1 class="col-12 tm-text-primary">About Me</h1>
           <div class="row mb-3 tm-gallery">
             I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
@@ -67,7 +67,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
     
 
             </div>
-        </div>
+        </div> -->
   
   
           <div class="row mb-4">
