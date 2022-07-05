@@ -9,12 +9,12 @@ redirect_from:
 ---
 
 <span style="font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
-
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 
 My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
+</span>
+
+
     
 # Research
 
@@ -92,7 +92,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                         <a href="_pages/quantum-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
+                <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
                     <span class="tm-text">Quantum Networks & Quantum Internet</span>
                     <span></span>
                 </div>
