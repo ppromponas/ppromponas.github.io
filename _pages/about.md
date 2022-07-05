@@ -10,7 +10,9 @@ redirect_from:
 
 <span style="font-weight:700;font-size:20px">
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
+</span>
 
+<span style="font-weight:700;font-size:20px">
 My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
 </span>
 
@@ -105,7 +107,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
+                <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
                     <span class="tm-text">Directional Sectorized mmWave Networks</span>
                     <span></span>
                 </div>
@@ -134,7 +136,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
+                <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
                     <span class="tm-text">Satisfaction Form Games for Network Resource Allocation</span>
                     <span></span>
                 </div>
@@ -147,7 +149,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                         <a href="_pages/photo-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
+                <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
                     <span class="tm-text">Mechanism Design in 5G Network Slicing</span>
                     <span></span>
                 </div>
