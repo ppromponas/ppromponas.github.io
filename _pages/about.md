@@ -13,8 +13,8 @@ redirect_from:
 <!-- <p style="margin-top: 5px;">&nbsp;</p> -->
 
 <h1>About Me</h1>
-
-<span style="margin-top:15px;color:black;font-weight:600;font-size:19px">
+<br>
+<span style="margin-top:15px;color:LightSlateGray;font-weight:600;font-size:19px">
 I am a second year Ph.D. student at Yale's Electrical Engineering department. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. 
 </span>
 
@@ -84,7 +84,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             <h1>&nbsp; Research</h1>
         </div> -->
 
-
+<br>
     <div class="container-fluid tm-container-content tm-mt-60" style="margin-top: -5px;">
       <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Network Routing and Sceduling Algorithms</h2>
