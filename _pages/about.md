@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About Me"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -20,7 +20,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
     
 
 
-<h2 style="margin-top: 5px;">Research</h2>
+<h1 style="margin-bottom: 5px;">Research</h1>
   
 <html lang="en">
 <head>
