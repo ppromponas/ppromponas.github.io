@@ -16,7 +16,7 @@ I am a second year Ph.D. student at Yale's Electrical Engineering department. I 
 My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas).  
 </span>
 
-<p style="margin-top: 15px">t</p>
+<p style="margin-top: 15px">&nbsp;</p>
     
 # Research
 
