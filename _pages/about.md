@@ -142,7 +142,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     <img src="_pages/img/test.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
                         <h2>Satisfaction &nbsp; Form &nbsp; &nbsp; Games</h2>
-                        <a href="_pages/photo-detail.html">View more</a>
+                        <a href="_pages/sfgames-detail.html">View more</a>
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
