@@ -71,7 +71,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
   
   
           <div class="row mb-4">
-            <h1>Research</h1>
+            <h1>&nbsp; Research</h1>
         </div>
 
 
