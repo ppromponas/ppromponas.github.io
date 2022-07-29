@@ -76,7 +76,11 @@ You can find the _Publications_ in this [tab](https://ppromponas.github.io/publi
 
  &nbsp;
 
-# Pre-Prints
+
+
+
+
+<!-- # Pre-Prints
 
 
 **Promponas, P.**, Pelekis, C., Tsiropoulou, E. E., & Papavassiliou, S. "Risk-Aware Satisfaction Equilibria in Resource Sharing Games under the Fragility of the Commons"  To Be Submitted, Preprint not available.
@@ -93,3 +97,4 @@ You can find the _Publications_ in this [tab](https://ppromponas.github.io/publi
 
 
 Valls, V., **Promponas, P.**, & Tassiulas, L. "On the Capacity of the Quantum Switch."  Submitted, Preprint not available.
+ -->
