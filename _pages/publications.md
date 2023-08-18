@@ -15,6 +15,9 @@ author_profile: true
 
 ## Journals
 
+
+Valls, V., **Promponas, P.**, & Tassiulas, L. [On the Capacity of the Quantum Switch with and without Entanglement Decoherence.](https://ieeexplore.ieee.org/abstract/document/10168120) IEEE Communications Letters.
+
 Pelekis, C., **Promponas, P.**, Alvarado, J., Tsiropoulou, E. E., & Papavassiliou, S. [A Fragile multi-CPR Game](https://arxiv.org/pdf/2102.12820.pdf).
 Mathematical Methods of Operations Research (Springer). 
 
@@ -26,9 +29,21 @@ Papavassiliou, S., Tsiropoulou, E. E., **Promponas, P.**, & Vamvakas, P. (2020, 
 Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks Resource Sharing.](https://www.researchgate.net/profile/Eirini_Eleni_Tsiropoulou/publication/346392121_A_Paradigm_Shift_Toward_Satisfaction_Realism_and_Efficiency_in_Wireless_Networks_Resource_Sharing/links/5fc3dd77a6fdcc6cc683a658/A-Paradigm-Shift-Toward-Satisfaction-Realism-and-Efficiency-in-Wireless-Networks-Resource-Sharing.pdf) IEEE Network.
 
 ## Conferences
+**Promponas, P.**, Chen, T., \& Tassiulas, L. [Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm.]() In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
+
+**Promponas, P.**, Valls, V., \& Tassiulas, L. [Full Exploitation of Limited Memory in Quantum Entanglement Switching.](https://arxiv.org/pdf/2304.10602.pdf) In 2023 IFIP Networking.
+
+**Promponas, P.** \& Tassiulas, L. [Network Slicing: Market Mechanism and Competitive Equilibria.](https://arxiv.org/pdf/2301.02840.pdf) In 2023 IEEE Computer and Communications Societies (INFOCOM '23)
+
 
 **Promponas, P.**, Apostolopoulos, P. A., Tsiropoulou, E. E., & Papavassiliou, S. (2019, September). [Redesigning Resource Management in Wireless Networks based on Games in Satisfaction Form](http://ece-research.unm.edu/tsiropoulou/files/IEEE_WMNC_2019_Promponas_Panagiotis_final.pdf). In 2019 12th IFIP Wireless and Mobile Networking Conference (WMNC) (pp. 24-31). IEEE. **(Best Paper Award)**
 
+
+## Workshops
+
+ **Promponas, P.**, Valls, V.,  \& Tassiulas, L. [Quantum Switch Scheduling for Information Qubits.](https://www.cse.cuhk.edu.hk/~cslui/paper05.pdf) Workshop on Quantum Systems and Computation, SIGMETRICS '23.
+
+ 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=-1WgCd8AAAAJ&hl=en)
 
 
