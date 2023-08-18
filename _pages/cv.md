@@ -31,9 +31,19 @@ _B’ Arsakeio Lykeio Psychikou (2001-2013)_
 
 # Experience
 
+
+
+
+**Graduate Research Assistant (Aug 2020 - Present)** \
+_Center for Quantum Networks, \
+NSF Engineering Research Center_
+
 **Graduate Research Assistant (Aug 2020 - Present)** \
 _Yale Institute for Network Science (YINS), \
 Yale University_
+
+**PhD Research Intern (May 2023 - Aug 2023)** \
+_Cisco Systems_
 
 **Graduate Teaching Fellow (Jan 2022 - May 2022)** \
 _EENG 310: Signals and Systems, \
@@ -43,25 +53,17 @@ Yale University_
 _Network Management and Optimal Design Laboratory, School of Electrical and Computer Engineering, \
 National Technical University of Athens_
 
- &nbsp;
-
-# Certificates
-
-**Neural Networks and Deep Learning** \
-[_Deeplearning.ai - Coursera, March 2019_](https://www.coursera.org/account/accomplishments/verify/RZLGWZ32TPEP)
-
-**Machine Learning** \
-[_Stanford University - Coursera, May 2018_](https://www.coursera.org/account/accomplishments/verify/C2LG3YTLFKBD)
+ 
 
  &nbsp;
  
 # Miscellaneous
 
-```
-Reviewer for the IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) 
-Reviewer for the IEEE Military Communications Conference (MILCOM) 
-Reviewer for the 20th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt ’22)
-```
+
+Reviewer for the IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), IEEE Military Communications Conference (MILCOM), International Symposium on Modeling and Optimization in Mobile Ad hoc, and Wireless Networks (WiOpt), IEEE Journal on Selected Areas in Communications (JSAC), IEEE Journal Transactions on Networking (TON), 
+
+Received conference travel grants for INFOCOM '23 & IFIP Networking '23.
+
  &nbsp;
  
 # Honors & Awards
@@ -80,21 +82,3 @@ You can find the _Publications_ in this [tab](https://ppromponas.github.io/publi
 
 
 
-<!-- # Pre-Prints
-
-
-**Promponas, P.**, Pelekis, C., Tsiropoulou, E. E., & Papavassiliou, S. "Risk-Aware Satisfaction Equilibria in Resource Sharing Games under the Fragility of the Commons"  To Be Submitted, Preprint not available.
-
-
-
-**Promponas, P.** & Tassiulas, L. "Learning the Competitive Equilibrium of the 5G Network Slicing Market." To Be Submitted, Preprint not available.
- 
-
-**Promponas, P.**, Valls, V., & Tassiulas, L. "Quantum Switch with Memory Constraints." To Be Submitted, Preprint not available.
-
-
- **Promponas, P.**, Chen, T., & Tassiulas, L. "Optimization of Sectorized Millimeter-wave Backhaul Networks: Model, Analysis, and Algorithm."  Submitted, Preprint not available.
-
-
-Valls, V., **Promponas, P.**, & Tassiulas, L. "On the Capacity of the Quantum Switch."  Submitted, Preprint not available.
- -->
