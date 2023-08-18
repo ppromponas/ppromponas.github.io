@@ -12,6 +12,8 @@ redirect_from:
 
 <!-- <p style="margin-top: 5px;">&nbsp;</p> -->
 
+
+
 <h1>About Me</h1>
 <br>
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
@@ -20,6 +22,12 @@ My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek i
 
 <span style="color:LightSlateGray;font-weight:600;font-size:19px">
 Prior to Yale, I did my undergraduate studies at the National Technical University of Athens (NTUA) in Greece, where I got a 5-year diploma degree in Electrical and Computer Engineering, with specializations in Networks, Computer Science and Mathematics. My diploma thesis was centered around Game Theoretic approaches for the uplink power control problem in wireless networks and my advisor was Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). After that, I worked for a year as a Research Assistant in the Network Management and Optimal Design Laboratory at NTUA where we studied network resource allocation problems under the paradigm of Games in Satisfaction Form.
+</span>
+
+
+
+<span style="color:LightSlateGray;font-weight:600;font-size:19px">
+Website last update: Aug 18, 2023.
 </span>
 
 
