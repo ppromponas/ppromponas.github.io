@@ -17,7 +17,7 @@ redirect_from:
 <h1>About Me</h1>
 <br>
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
-My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek island. I am a third year Ph.D. student at Yale's Electrical Engineering department, where I recently received my M.Sc.. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. My advisor is Prof. [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We are currently working on the development of scheduling and routing policies for Quantum Networks as well as for Wireless Directional Networks.  
+My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek island. I am a third year Ph.D. student at Yale's Electrical Engineering department, where I recently received my M.Sc.. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. My advisor is Prof. [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We are currently working on (i) the development of scheduling and routing policies for Quantum Networks and Wireless Directional Networks, and (ii) resource allocation and modeling for Distributed Quantum Computing.  
 </span>
 
 <span style="color:LightSlateGray;font-weight:600;font-size:19px">
