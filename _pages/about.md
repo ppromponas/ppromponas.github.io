@@ -132,7 +132,7 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
                     </figcaption>                    
                 </figure>
                 <div class="d-flex justify-content-between tm-text-gray" style="font-weight:700;font-size:20px">
-                    <span class="tm-text">Directional Sectorized mmWave Networks</span>
+                    <span class="tm-text">Directional Sectorized Wireless Networks</span>
                     <span></span>
                 </div>
             </div>
