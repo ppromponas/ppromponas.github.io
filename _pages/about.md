@@ -19,15 +19,16 @@ redirect_from:
 
 
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px"> My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek island. I am a fifth-year Ph.D. student in Yale's Electrical and Computer Engineering department, under the supervision of Prof. [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). My research focuses on modeling and algorithm design for networked systems, with a broad interest in optimization—ranging from stochastic optimization and mathematical programming to machine learning and heuristics.
-Currently, we are working on quantum networks and distributed quantum computing. Our work addresses questions such as: how to optimize networking components, how to compile quantum circuits into a distributed environment, and what parameter regimes are needed to execute useful quantum algorithms. As part of this work, I interned twice at Cisco Systems (May–Aug 2023, Jul–Aug 2024), where we developed a compiler for distributed quantum computing that translates quantum circuits to a mapping from logical to physical qubits while considering the underlying quantum network. </span>
+Currently, we work on quantum networks and distributed quantum computing—focusing on optimizing network components, compiling circuits for distributed execution, and identifying regimes for useful quantum algorithms. At Cisco Systems (May–Aug 2023, Jul–Aug 2024), we developed a compiler that translates a quantum circuit to networking and qubit routing operations. </span>
 
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
 I also interned at Amazon (Aug 2024–Feb 2025) as an Applied Scientist Intern with the Amazon Transportation Services team, focusing on large-scale optimization problems in logistics and operations.
 </span>
 
 
-<span style="color:LightSlateGray;font-weight:600;font-size:19px"> Prior to Yale, I earned a 5-year diploma in Electrical and Computer Engineering from the National Technical University of Athens (NTUA), with specializations in Networks, Computer Science, and Mathematics. My diploma thesis focused on game-theoretic approaches for uplink power control in wireless networks, advised by Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). I then worked as a Research Assistant at the Network Management and Optimal Design Laboratory at NTUA, when I worked on modeling and optimization in sectorized directional wireless networks, and on applying game theory and mechanism design to problems such as power allocation and network slicing. </span>
 
+
+<span style="color:LightSlateGray;font-weight:600;font-size:19px"> Before Yale, I earned a 5-year diploma in Electrical and Computer Engineering from [NTUA](https://www.ece.ntua.gr/en), specializing in Networks, Computer Science, and Mathematics. My thesis on uplink power control in wireless networks was advised by Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). I later worked as a Research Assistant at NTUA on modeling, optimization, and game-theoretic approaches to network problems. </span>
 
 
 
