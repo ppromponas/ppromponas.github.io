@@ -16,18 +16,24 @@ redirect_from:
 
 <h1>About Me</h1>
 <br>
+
+
+<span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px"> My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek island. I am a third-year Ph.D. student in Yale's Electrical Engineering department, where I recently received my M.Sc. I am also a research assistant at the [Yale Institute for Network Science (YINS)](https://yins.yale.edu), working under the supervision of Prof. [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). My research focuses on modeling and algorithm design for networked systems, with a broad interest in optimization—ranging from stochastic optimization and mathematical programming to machine learning and heuristics.
+Currently, we are working on quantum networks and distributed quantum computing. Our work addresses questions such as: how to optimize networking components, how to compile quantum circuits into a distributed environment, and what parameter regimes are needed to execute useful quantum algorithms. As part of this work, I interned twice at Cisco Systems (May–Aug 2023, Jul–Aug 2024), where we developed a compiler for distributed quantum computing that translates quantum circuits to a mapping from logical to physical qubits while considering the underlying quantum network. </span>
+
 <span style="padding-top:7px;color:LightSlateGray;font-weight:600;font-size:19px">
-My name is Panagiotis (Panos) Promponas and I am from Naxos, a beautiful Greek island. I am a third year Ph.D. student at Yale's Electrical Engineering department, where I recently received my M.Sc.. I am also a research assistant at [Yale Institute for Network Science (YINS)](https://yins.yale.edu). I am broadly interested in the optimization and modeling of networking systems. My advisor is Prof. [Leandros Tassiulas](https://seas.yale.edu/faculty-research/faculty-directory/leandros-tassiulas). We are currently working on (i) the development of scheduling and routing policies for Quantum Networks and Wireless Directional Networks, and (ii) resource allocation and modeling for Distributed Quantum Computing.  
-</span>
-
-<span style="color:LightSlateGray;font-weight:600;font-size:19px">
-Prior to Yale, I did my undergraduate studies at the National Technical University of Athens (NTUA) in Greece, where I got a 5-year diploma degree in Electrical and Computer Engineering, with specializations in Networks, Computer Science and Mathematics. My diploma thesis was centered around Game Theoretic approaches for the uplink power control problem in wireless networks and my advisor was Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). After that, I worked for a year as a Research Assistant in the Network Management and Optimal Design Laboratory at NTUA where we studied network resource allocation problems under the paradigm of Games in Satisfaction Form.
+I also interned at Amazon (Aug 2024–Feb 2025) as an Applied Scientist Intern with the Amazon Transportation Services team, focusing on large-scale optimization problems in logistics and operations.
 </span>
 
 
+<span style="color:LightSlateGray;font-weight:600;font-size:19px"> Prior to Yale, I earned a 5-year diploma in Electrical and Computer Engineering from the National Technical University of Athens (NTUA), with specializations in Networks, Computer Science, and Mathematics. My diploma thesis focused on game-theoretic approaches for uplink power control in wireless networks, advised by Prof. [Symeon Papavassiliou](https://www.ece.ntua.gr/en/staff/76). I then worked as a Research Assistant at the Network Management and Optimal Design Laboratory at NTUA, when I worked on modeling and optimization in sectorized directional wireless networks, and on applying game theory and mechanism design to problems such as power allocation and network slicing. </span>
+
+
+
+
 
 <span style="color:LightSlateGray;font-weight:600;font-size:19px">
-Website last update: Aug 18, 2023.
+Website last update: Mar 28, 2025.
 </span>
 
 
