@@ -41,7 +41,7 @@ Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks 
 
 ## Conferences
 
-**Promponas, P.**, Mudvari, A., Della Chiesa , L., Polakos P., Samuel, L., & Tassiulas, L. [Compiler for Distributed Quantum Computing: a Reinforcement Learning Approach.] (https://arxiv.org/pdf/2404.17077) 2025 IEEE International Conference on Communications (ICC '25).
+**Promponas, P.**, Mudvari, A., Della Chiesa , L., Polakos P., Samuel, L., & Tassiulas, L. [Compiler for Distributed Quantum Computing: a Reinforcement Learning Approach.](https://arxiv.org/pdf/2404.17077) 2025 IEEE International Conference on Communications (ICC '25).
 
  
  **Promponas, P.**, Valls, V., Nikolakakis, K., Kalogerias, D., & Tassiulas, L. [Throughput-Optimal Scheduling via Rate Learning.](https://arxiv.org/pdf/2409.09198) 2024 Conference on Decision and Control (CDC '24).
