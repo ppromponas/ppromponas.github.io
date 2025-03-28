@@ -46,9 +46,9 @@ Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks 
  
  **Promponas, P.**, Valls, V., Nikolakakis, K., Kalogerias, D., & Tassiulas, L. [Throughput-Optimal Scheduling via Rate Learning.](https://arxiv.org/pdf/2409.09198) 2024 Conference on Decision and Control (CDC '24).
 
-**Promponas, P.**, Chen, T., \& Tassiulas, L. [Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm.]() In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
+**Promponas, P.**, Chen, T., & Tassiulas, L. [Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm.]() In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
 
-**Promponas, P.**, Valls, V., \& Tassiulas, L. [Full Exploitation of Limited Memory in Quantum Entanglement Switching.](https://arxiv.org/pdf/2304.10602.pdf) In 2023 IFIP Networking.
+**Promponas, P.**, Valls, V., & Tassiulas, L. [Full Exploitation of Limited Memory in Quantum Entanglement Switching.](https://arxiv.org/pdf/2304.10602.pdf) In 2023 IFIP Networking.
 
 **Promponas, P.** \& Tassiulas, L. [Network Slicing: Market Mechanism and Competitive Equilibria.](https://arxiv.org/pdf/2301.02840.pdf) In 2023 IEEE Computer and Communications Societies (INFOCOM '23)
 
