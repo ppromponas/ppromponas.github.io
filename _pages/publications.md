@@ -50,7 +50,7 @@ Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks 
 
 **Promponas, P.**, Valls, V., & Tassiulas, L. [Full Exploitation of Limited Memory in Quantum Entanglement Switching.](https://arxiv.org/pdf/2304.10602.pdf) In 2023 IFIP Networking.
 
-**Promponas, P.** \& Tassiulas, L. [Network Slicing: Market Mechanism and Competitive Equilibria.](https://arxiv.org/pdf/2301.02840.pdf) In 2023 IEEE Computer and Communications Societies (INFOCOM '23)
+**Promponas, P.** & Tassiulas, L. [Network Slicing: Market Mechanism and Competitive Equilibria.](https://arxiv.org/pdf/2301.02840.pdf) In 2023 IEEE Computer and Communications Societies (INFOCOM '23)
 
 
 **Promponas, P.**, Apostolopoulos, P. A., Tsiropoulou, E. E., & Papavassiliou, S. (2019, September). [Redesigning Resource Management in Wireless Networks based on Games in Satisfaction Form](http://ece-research.unm.edu/tsiropoulou/files/IEEE_WMNC_2019_Promponas_Panagiotis_final.pdf). In 2019 12th IFIP Wireless and Mobile Networking Conference (WMNC) (pp. 24-31). IEEE. **(Best Paper Award)**
@@ -58,7 +58,7 @@ Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks 
 
 ## Workshops
 
- **Promponas, P.**, Valls, V.,  \& Tassiulas, L. [Quantum Switch Scheduling for Information Qubits.](https://www.cse.cuhk.edu.hk/~cslui/paper05.pdf) Workshop on Quantum Systems and Computation, SIGMETRICS '23.
+ **Promponas, P.**, Valls, V.,  & Tassiulas, L. [Quantum Switch Scheduling for Information Qubits.](https://www.cse.cuhk.edu.hk/~cslui/paper05.pdf) Workshop on Quantum Systems and Computation, SIGMETRICS '23.
 
  
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=-1WgCd8AAAAJ&hl=en)
