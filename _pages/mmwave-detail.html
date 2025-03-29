@@ -28,27 +28,34 @@ https://templatemo.com/tm-556-catalog-z
             <h2 class="col-12 tm-text-primary">Sectorized mmWave Networks</h2>
         </div>
 
-        <div class="row mb-3 tm-gallery" style="margin-left:0.3cm;margin-right:0.3cm;">
+        <div class="row mb-3 tm-gallery" style="margin-left:0.3cm; margin-right:0.3cm;">
 
+            <!-- Intro Paragraphs -->
             <p>
-            Future wireless networks, such as 5G/6G systems, must support growing demands for high data rates and broad coverage. Sectorization — equipping infrastructure nodes with multiple directional sectors — is a promising solution to improve spatial reuse and reduce interference. Sectorized wireless backhaul networks, particularly in mmWave frequencies, can deliver fiber-like speeds using beam-steering phased arrays within each sector. Recent developments, such as IAB and SuperCell, highlight the importance of designing and optimizing sectorized nodes capable of activating multiple sectors simultaneously.
+            Future wireless networks, such as 5G/6G systems, must satisfy ever-growing demands for high data rates and extensive coverage. Sectorization—where each infrastructure node is equipped with multiple directional sectors—has emerged as a promising strategy to boost spatial reuse and limit interference. In millimeter-wave (mmWave) backhaul networks, these sectorized nodes can deliver fiber-like data rates by steering highly directional beams within each sector. With standards like IAB and concepts like SuperCell, the ability to simultaneously activate multiple sectors at each node has become increasingly important to both research and practice.
             </p>
 
             <p>
-            In this work, we model and analyze sectorized multi-hop mesh networks, where each fixed node consists of several independently steerable sectors. We define the link interference model and characterize the capacity region based on the network topology and sector configuration. We introduce the flow extension ratio and sectorization gain to quantify the performance benefits of sectorized designs. Our goal is to determine the node sectorization that maximizes flow under given network conditions.
+            In our work, we focus on modeling and analyzing multi-hop mesh networks formed by sectorized nodes. Each fixed node is composed of several independently steerable sectors, and these sectors can be activated in different ways to reshape connectivity and interference patterns throughout the network. We analyze this process through a capacity-region framework rooted in matching polytopes, which captures how each sector’s activation influences the bandwidth available for forwarding and routing.
+            </p>
+
+            <!-- Merged Contributions Paragraph(s) -->
+            <p>
+            Central to our approach is the idea that adjusting sector configurations effectively changes the network’s topology, creating new routes or freeing up additional capacity in regions of high demand. We devise an optimization problem that selects the best sectorization for a given traffic flow, and we solve it with a distributed approximation algorithm that guarantees close-to-optimal performance. We also introduce a specific configuration called Even Homogeneous Sectorization, which simplifies capacity analysis and accelerates convergence under dynamic policies like backpressure routing. Beyond any single fixed choice of sectors, we further explore dynamic sectorization, allowing nodes to adaptively switch active sectors in response to fluctuating traffic patterns. This includes both a backpressure-based heuristic for real-time reconfiguration and a throughput-optimal solution built around maximum weighted b-matchings. Through extensive simulations, we demonstrate that these strategies can significantly boost flow, stabilize the network under diverse traffic conditions, and generalize to other settings with similar connectivity structures.
             </p>
 
             <p>
-            We formulate the optimization problem for selecting sectorizations and propose a distributed algorithm with a 2/3 approximation guarantee. We also identify a class of Even Homogeneous Sectorizations that improves dynamic routing and boosts capacity. Furthermore, we explore dynamic sectorization strategies using backpressure and b-matching-based routing, achieving robust performance under unknown traffic arrivals. Our evaluation demonstrates significant sectorization gains across a variety of network settings.
+            Our findings underscore the power of sectorization as an algorithmic tool: it not only combats interference by narrowing communication beams, but also reshapes network connectivity in ways that improve routing, scheduling, and throughput. By unifying the capacity-region perspective with a practical sector-activation strategy, we show how sectorized infrastructure nodes can be leveraged to dynamically sculpt effective topologies and unlock higher performance gains in next-generation wireless networks.
             </p>
 
+            <!-- Publication Reference -->
             <br>
-            <h5>Indicative Publications</h5>
-
+            <h5>Publications</h5>
             <p>
             Promponas, P., Chen, T., & Tassiulas, L. Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm. In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
             </p>
 
+            <!-- Video -->
             <div class="row mt-4 justify-content-center">
                 <video width="720" controls preload="none" poster="../gifs/sectorization_demo_thumbnail.png">
                     <source src="../gifs/sectorization_demo.mp4" type="video/mp4">
@@ -58,10 +65,10 @@ https://templatemo.com/tm-556-catalog-z
 
             <p style="margin-bottom:3cm;"></p>
 
+            <!-- Back Button -->
             <div class="d-flex justify-content-center align-items-center" data-parallax="scroll">
                 <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
             </div>
-
         </div> <!-- row -->
     </div> <!-- container-fluid, tm-container-content -->
 
