@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
-<!--
-TemplateMo 556 Catalog-Z
-https://templatemo.com/tm-556-catalog-z
--->
 </head>
 <body>
 
@@ -29,33 +25,26 @@ https://templatemo.com/tm-556-catalog-z
         </div>
 
         <div class="row mb-3 tm-gallery" style="margin-left:0.3cm; margin-right:0.3cm;">
-
-            <!-- Intro Paragraphs -->
             <p>
-            Future wireless networks, such as 5G/6G systems, must satisfy ever-growing demands for high data rates and extensive coverage. Sectorization—where each infrastructure node is equipped with multiple directional sectors—has emerged as a promising strategy to boost spatial reuse and limit interference. In millimeter-wave (mmWave) backhaul networks, these sectorized nodes can deliver fiber-like data rates by steering highly directional beams within each sector. With standards like IAB and concepts like SuperCell, the ability to simultaneously activate multiple sectors at each node has become increasingly important to both research and practice.
+            We explore how next-generation wireless systems can exploit <strong>sectorization</strong>&mdash;the ability of each infrastructure node to activate multiple directional antennas&mdash;to reshape the network and deliver fiber-like speeds in millimeter-wave (mmWave) backhaul settings. Our work begins by defining a comprehensive <strong>sectorized network model</strong> that captures how each node’s sectors interact to form multi-hop paths, and how interference is influenced by different sector configurations.
             </p>
 
             <p>
-            In our work, we focus on modeling and analyzing multi-hop mesh networks formed by sectorized nodes. Each fixed node is composed of several independently steerable sectors, and these sectors can be activated in different ways to reshape connectivity and interference patterns throughout the network. We analyze this process through a capacity-region framework rooted in matching polytopes, which captures how each sector’s activation influences the bandwidth available for forwarding and routing.
-            </p>
-
-            <!-- Merged Contributions Paragraph(s) -->
-            <p>
-            Central to our approach is the idea that adjusting sector configurations effectively changes the network’s topology, creating new routes or freeing up additional capacity in regions of high demand. We devise an optimization problem that selects the best sectorization for a given traffic flow, and we solve it with a distributed approximation algorithm that guarantees close-to-optimal performance. We also introduce a specific configuration called Even Homogeneous Sectorization, which simplifies capacity analysis and accelerates convergence under dynamic policies like backpressure routing. Beyond any single fixed choice of sectors, we further explore dynamic sectorization, allowing nodes to adaptively switch active sectors in response to fluctuating traffic patterns. This includes both a backpressure-based heuristic for real-time reconfiguration and a throughput-optimal solution built around maximum weighted b-matchings. Through extensive simulations, we demonstrate that these strategies can significantly boost flow, stabilize the network under diverse traffic conditions, and generalize to other settings with similar connectivity structures.
+            Within this model, we compute the <strong>capacity region</strong>, which represents all the traffic demands (or flows) the network can support without overloading. By carefully tuning each node’s sectorization, we can increase total throughput, reduce congestion, and route traffic more efficiently. We formalize this tuning as an <strong>optimization problem</strong>, where given a target network flow, we find the best way to define the sectors. We then delve deeper into how dynamically reconfiguring these sectors can change the <em>effective</em> network topology&mdash;unlocking even more capacity when traffic patterns vary over time.
             </p>
 
             <p>
-            Our findings underscore the power of sectorization as an algorithmic tool: it not only combats interference by narrowing communication beams, but also reshapes network connectivity in ways that improve routing, scheduling, and throughput. By unifying the capacity-region perspective with a practical sector-activation strategy, we show how sectorized infrastructure nodes can be leveraged to dynamically sculpt effective topologies and unlock higher performance gains in next-generation wireless networks.
+            A central contribution is our <strong>Even Homogeneous Sectorization</strong> approach, which constructs a bipartite structure in the effective network graph. This structure significantly simplifies capacity calculations, speeds up routing decisions, and makes distributed algorithms easier to implement. By endowing the network graph with bipartite properties, we show how to quickly determine stable flows, use backpressure-based routing to handle fluctuating traffic, and achieve strong performance in simulations.
             </p>
 
-            <!-- Publication Reference -->
+            
+
             <br>
-            <h5>Publications</h5>
+            <h5>Indicative Publications</h5>
             <p>
-            Promponas, P., Chen, T., & Tassiulas, L. Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm. In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
+            Promponas, P., Chen, T., & Tassiulas, L. <em>Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm</em>. In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23).
             </p>
 
-            <!-- Video -->
             <div class="row mt-4 justify-content-center">
                 <video width="720" controls preload="none" poster="../gifs/sectorization_demo_thumbnail.png">
                     <source src="../gifs/sectorization_demo.mp4" type="video/mp4">
@@ -65,7 +54,6 @@ https://templatemo.com/tm-556-catalog-z
 
             <p style="margin-bottom:3cm;"></p>
 
-            <!-- Back Button -->
             <div class="d-flex justify-content-center align-items-center" data-parallax="scroll">
                 <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
             </div>
