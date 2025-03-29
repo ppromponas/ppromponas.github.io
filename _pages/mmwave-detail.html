@@ -8,106 +8,63 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
 <!--
-    
 TemplateMo 556 Catalog-Z
-
 https://templatemo.com/tm-556-catalog-z
-
 -->
 </head>
 <body>
 
-
-
     <!-- Page Loader -->
     <div id="loader-wrapper">
         <div id="loader"></div>
-
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-
     </div>
-    
 
-    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/mmwavenetworks.jpg">
-    
-    </div>
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/mmwavenetworks.jpg"></div>
 
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Sectorized mmWave Networks</h2>
         </div>
-       
-       
+
         <div class="row mb-3 tm-gallery" style="margin-left:0.3cm;margin-right:0.3cm;">
-            
-  <p>          
-Future wireless networks and systems including 5G/6G and next generation Wi-Fi will use the widely available spectrum in the millimeter-wave (mmWave) frequency bands to deliver multi-Gbps data rates. Since radio signals at mmWave frequencies experience significantly higher path loss compared to signals at lower frequencies (e.g., sub-6 GHz), mmWave radios employ directional antennas and the beamforming technology based on phased arrays to compensate for the high signal path loss. Despite recent deployments of commercial 5G mmWave networks, it has been shown that mobile mmWave networks have a spotty coverage, due to the fact that mmWave signals are vulnerable to environmental changes introduced by user mobility and/or blockage. However, mmWave networks in fixed deployments, such as fixed wireless access (FWA) and backhaul networks have been proven to be successful. 
-            </p>
+
             <p>
-In a mmWave backhaul network that can provide fiber-like data rates, each mmWave node is usually composed of a number of sectors, each of which is equipped with a phased array with beamforming capability and a limited field-of-view (FoV) (e.g., ±60◦ degrees). Such a sectorized mmWave node can not only mitigate potential interference from/to neighboring nodes through highly directional transmission, but also allow for multiple concurrent outgoing/incoming data streams to be carried by different sectors of the same node.
-</p>
-
-        <p>
-In this thrust, we focus on the modeling, analysis, and optimization of sectorized mmWave backhaul networks, where sectorized mmWave nodes with beam-steering capabilities form a multi-hop mesh network for data forwarding and routing. In particular, we present the model of a backhaul infrastructure network consisting of a number of (fixed) sectorized mmWave nodes. Based on this sectorized network model and its connectivity graph, we describe the link interference model and characterize the capacity region of the these networks. For a sectorized mmWave network, we introduce a latent structure of its connectivity graph, called the auxiliary graph, which captures the underlying structural property of the network as a function of the sectorization of each node. We show that the capacity region of a sectorized mmWave network can be described by the matching polytope of its auxiliary graph.
+            Future wireless networks, such as 5G/6G systems, must support growing demands for high data rates and broad coverage. Sectorization — equipping infrastructure nodes with multiple directional sectors — is a promising solution to improve spatial reuse and reduce interference. Sectorized wireless backhaul networks, particularly in mmWave frequencies, can deliver fiber-like speeds using beam-steering phased arrays within each sector. Recent developments, such as IAB and SuperCell, highlight the importance of designing and optimizing sectorized nodes capable of activating multiple sectors simultaneously.
             </p>
-            
 
-<br>
+            <p>
+            In this work, we model and analyze sectorized multi-hop mesh networks, where each fixed node consists of several independently steerable sectors. We define the link interference model and characterize the capacity region based on the network topology and sector configuration. We introduce the flow extension ratio and sectorization gain to quantify the performance benefits of sectorized designs. Our goal is to determine the node sectorization that maximizes flow under given network conditions.
+            </p>
+
+            <p>
+            We formulate the optimization problem for selecting sectorizations and propose a distributed algorithm with a 2/3 approximation guarantee. We also identify a class of Even Homogeneous Sectorizations that improves dynamic routing and boosts capacity. Furthermore, we explore dynamic sectorization strategies using backpressure and b-matching-based routing, achieving robust performance under unknown traffic arrivals. Our evaluation demonstrates significant sectorization gains across a variety of network settings.
+            </p>
+
+            <br>
             <h5>Publications</h5>
-            
-            
-             <p> Promponas, P., Chen, T., & Tassiulas, L. Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm. In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
-</p>
+
+            <p>
+            Promponas, P., Chen, T., & Tassiulas, L. Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm. In 24th International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc '23)
+            </p>
 
             <div class="row mt-4 justify-content-center">
-                     <video width="720" controls preload="none" poster="../gifs/sectorization_demo_thumbnail.png">
-  <source src="../gifs/sectorization_demo.mp4" type="video/mp4">
-  Sorry, your browser can't play this video.
-</video>
+                <video width="720" controls preload="none" poster="../gifs/sectorization_demo_thumbnail.png">
+                    <source src="../gifs/sectorization_demo.mp4" type="video/mp4">
+                    Sorry, your browser can't play this video.
+                </video>
+            </div>
 
-</div>
+            <p style="margin-bottom:3cm;"></p>
 
+            <div class="d-flex justify-content-center align-items-center" data-parallax="scroll">
+                <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
+            </div>
 
-
-
-
-            
-            
-         <!--    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Hangers</h2>
-                        <a href="#">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">16 Oct 2020</span>
-                    <span>12,460 views</span>
-                </div>
-            </div> -->
-                        
-
-<p style="margin-bottom:3cm;"></p>
-
-<div class=" d-flex justify-content-center align-items-center" data-parallax="scroll">
-    
-          <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
-
-    </div>
-
-           
-
-
-
-            
-           
         </div> <!-- row -->
     </div> <!-- container-fluid, tm-container-content -->
 
- 
-    
     <script src="js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
