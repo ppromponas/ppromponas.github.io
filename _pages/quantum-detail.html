@@ -7,101 +7,88 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
-<!--
-    
-TemplateMo 556 Catalog-Z
-
-https://templatemo.com/tm-556-catalog-z
-
--->
 </head>
 <body>
-
-
 
     <!-- Page Loader -->
     <div id="loader-wrapper">
         <div id="loader"></div>
-
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
-
     </div>
-    
 
     <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/QuantumProcessor.jpg">
-    
     </div>
 
     <div class="container-fluid tm-container-content tm-mt-60">
+
         <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Optimizing and Modeling Quantum Entanglement Networks</h2>
         </div>
-       
-       
+
         <div class="row mb-3 tm-gallery" style="margin-left:0.3cm;margin-right:0.3cm;">
             <p>
-            In the rapidly evolving field of quantum computing, entanglement distribution plays a crucial role, transcending beyond distributed quantum computing to enable quantum key distribution and advanced quantum sensing. My research focuses on the critical task of modeling and optimizing these entanglement distribution networks. We are tackling the inherent challenges of quantum entanglement management, aiming to significantly improve the efficiency and scalability of quantum networks. This research is not just about theoretical advancement; it's about practical solutions that will facilitate more robust quantum communications and sensing technologies, potentially revolutionizing how we approach information security and data analysis in a quantum-enabled future.
+                Quantum networks are systems of interconnected quantum devices that share entangled qubits across distances. These entanglement-based links form the foundation of quantum communication, enabling powerful capabilities such as quantum key distribution (QKD), distributed quantum computing, and high-precision quantum sensing. However, entanglement is fragile—loss and decoherence quickly degrade it over long distances, making entanglement distribution a critical research challenge.
             </p>
-            </div>
+            <p>
+                A key component of such networks is the <strong>quantum repeater</strong>. These devices extend the range of entanglement by dividing long links into shorter segments and performing entanglement swapping and purification at intermediate nodes. Another core element is the <strong>quantum switch</strong>, which dynamically manages entanglement resources and efficiently connects users based on demand.
+            </p>
+            <p>
+                These network elements are essential because large-scale, monolithic quantum processors are currently infeasible. Quantum systems are hard to scale due to hardware limitations and error rates. Instead, by connecting smaller quantum devices through entangled links, we can build scalable, modular architectures. My research models these entanglement distribution networks and develops scheduling and optimization methods for improving their capacity, performance, and robustness.
+            </p>
 
-<div class="row mb-4">
-            <h2 class="col-12 tm-text-primary">Advancing Distributed Quantum Computing Through Strategic Resource Allocation and Qubit Mapping</h2>
+            <br>
+            <h5>Publications</h5>
+            <p>Valls, V., Promponas, P., & Tassiulas, L. <em>A Brief Introduction to Quantum Network Control.</em> IEEE Communications Magazine.</p>
+            <p>Promponas, P., Valls, V., & Tassiulas, L. <em>Maximizing Entanglement Rates via Efficient Memory Management in Flexible Quantum Switches.</em> IEEE Journal on Selected Areas in Communications, Special Issue on “The Quantum Internet: principles, protocols, and architectures”.</p>
+            <p>Valls, V., Promponas, P., & Tassiulas, L. <em>On the Capacity of the Quantum Switch with and without Entanglement Decoherence.</em> IEEE Communications Letters.</p>
+        </div>
+
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Distributed Quantum Computing and Compiler Design</h2>
         </div>
 
         <div class="row mb-3 tm-gallery" style="margin-left:0.3cm;margin-right:0.3cm;">
             <p>
-The scaling limitations of single quantum processors have become a significant barrier in quantum computing. This has shifted the focus to distributed quantum computing, where multiple quantum computers are linked to collectively execute complex quantum circuits. My research is centered on this paradigm shift, specifically addressing the modeling and optimization of resource allocation within these distributed systems. We are developing strategies to optimally allocate resources among interconnected quantum processors, thereby enhancing their collective computational power. This research is critical in addressing the scalability issues and error rates that currently hinder quantum computing. By refining the execution of quantum circuits across distributed networks, we are paving the way for more practical and efficient quantum computing solutions. The implications of this research extend beyond academic interest, offering insights into the real-world feasibility of large-scale quantum computations, a crucial step towards the widespread adoption of quantum computing technologies.            </p>
-            
+                As quantum computing technology evolves, a single quantum processor may not be able to handle the size and complexity of large-scale quantum applications. To address this, <strong>Distributed Quantum Computing (DQC)</strong> has emerged as a promising architecture that connects multiple quantum processors via quantum links to operate as a unified computational platform.
+            </p>
+            <p>
+                One of the core challenges in DQC is enabling seamless execution of quantum circuits across physically separated QPUs. This requires careful handling of two critical compilation tasks:
+                <ul>
+                    <li><strong>Initial Qubit Mapping</strong>: Strategically assigning logical qubits in the circuit to the physical qubits available across the networked QPUs, in a way that anticipates and minimizes costly inter-QPU operations.</li>
+                    <li><strong>Qubit Routing</strong>: Managing the generation and use of entanglement links, scheduling quantum teleportation operations, and injecting SWAP gates to move qubits efficiently across and within QPUs.</li>
+                </ul>
+            </p>
+            <p>
+                Our work is focused on developing compilation frameworks that jointly consider these aspects under realistic system constraints, such as limited link fidelity, qubit decoherence, and network congestion. The goal is to enable efficient, scalable, and reliable execution of quantum circuits in distributed settings.
+            </p>
+            <p>
+                The GIF below demonstrates a scenario with two QPUs connected by a single quantum link. It visualizes some of the actions that the compiler can perform: locally <strong>SWAP</strong>ping logical qubits within a QPU, and performing <strong>qubit and gate teleportations</strong> across QPUs. These actions are taken to execute a quantum circuit, which is represented internally as a Directed Acyclic Graph (DAG).
+            </p>
 
-<br>
+            <div class="d-flex justify-content-center my-4">
+                <img src="gifs/quantum-demo.gif" alt="Distributed Quantum Compiler Demo" class="img-fluid rounded" style="max-width: 100%; height: auto;">
+            </div>
+
+            <br>
             <h5>Publications</h5>
-            
-            
-             <p> Valls, V., Promponas, P., & Tassiulas, L. On the Capacity of the Quantum Switch with and without Entanglement Decoherence. IEEE Communications Letters.</p>
-                 
-            <p>Promponas, P., Valls, V., & Tassiulas, L. Full Exploitation of Limited Memory in Quantum Entanglement Switching. In 2023 IFIP Networking.</p>
-            
-            <p> Promponas, P., Valls, V.,  & Tassiulas, L. Quantum Switch Scheduling for Information Qubits. Workshop on Quantum Systems and Computation, SIGMETRICS '23.
-</p>
+            <p>Promponas, P., Mudvari, A., Della Chiesa, L., Polakos, P., Samuel, L., & Tassiulas, L. <em>Compiler for Distributed Quantum Computing: a Reinforcement Learning Approach.</em> 2025 IEEE International Conference on Communications (ICC ‘25).</p>
+        </div>
 
-         <!--    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Hangers</h2>
-                        <a href="#">View more</a>
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">16 Oct 2020</span>
-                    <span>12,460 views</span>
-                </div>
-            </div> -->
-                        
+        <p style="margin-bottom:3cm;"></p>
 
-<p style="margin-bottom:3cm;"></p>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
+        </div>
 
-<div class=" d-flex justify-content-center align-items-center" data-parallax="scroll">
-    
-          <a href="https://ppromponas.github.io" class="btn btn-primary btn-sm" role="button">Back</a>
+    </div> <!-- container-fluid -->
 
-    </div>
-
-           
-           
-            
-           
-        </div> <!-- row -->
-    </div> <!-- container-fluid, tm-container-content -->
-
- 
-    
     <script src="js/plugins.js"></script>
     <script>
         $(window).on("load", function() {
             $('body').addClass('loaded');
         });
     </script>
+
 </body>
 </html>
