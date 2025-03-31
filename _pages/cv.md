@@ -43,11 +43,11 @@ Optimization at Amazon Transportation Services_
 
 **PhD Research Intern (Jul 2024 - Aug 2024)** \
 _Cisco Systems, \
-Worked on a compiler for Distributed Quantum Computing_
+Worked on a compiler for measurement based Distributed Quantum Computing_
 
 **PhD Research Intern (May 2023 - Aug 2023)** \
 _Cisco Systems, \
-Worked on a compiler for Distributed Quantum Computing_
+Worked on a compiler for gate based Distributed Quantum Computing_
 
 **Graduate Teaching Fellow (Jan 2022 - May 2022)** \
 _EENG 310: Signals and Systems, \
