@@ -16,6 +16,9 @@ author_profile: true
 ## Journals
 
 
+**Promponas, P.**, Chen, T., & Tassiulas, L. [On the Optimization and Stability of Sectorized Wireless Networks.](https://www.researchgate.net/publication/392975658_On_the_Optimization_and_Stability_of_Sectorized_Wireless_Networks) IEEE Transactions on Networking.
+ 
+
 Crampton, O., **Promponas, P.**, Chen, R.,  Polakos P., Tassiulas, L., & Samuel, L. [A Genetic Approach to Minimising Gate and Qubit Teleportations for Multi-Processor Quantum Circuit Distribution.](https://arxiv.org/pdf/2405.05875) Journal of Quantum Computing (JQC).
 
 
