@@ -37,6 +37,10 @@ Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00
 _Center for Quantum Networks, \
 NSF Engineering Research Center_
 
+**Graduate Research Assistant (Aug 2020 - Present)** \
+_Yale Institute for Network Science (YINS), \
+Yale University_
+
 **Applied Scientist Intern (Aug 2024 - Feb 2025)** \
 _Amazon, \
 Optimization at Amazon Transportation Services_
