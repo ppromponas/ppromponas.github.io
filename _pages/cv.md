@@ -14,6 +14,11 @@ redirect_from:
 **Doctor of Philosophy in Electrical Engineering** \
 _Yale University (2020-2025)_
 
+
+**Master of Philosophy in Electrical Engineering (Grade: Honours)** \
+_Yale University (2021-2022)_
+
+
 **Master of Science in Electrical Engineering (Grade: Honours)** \
 _Yale University (2020-2021)_
 
