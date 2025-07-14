@@ -65,14 +65,13 @@ National Technical University of Athens_
 
  &nbsp;
  
-# Miscellaneous
+# Academic Service
 
 
-Reviewer for the IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), IEEE Military Communications Conference (MILCOM), International Symposium on Modeling and Optimization in Mobile Ad hoc, and Wireless Networks (WiOpt), IEEE Journal on Selected Areas in Communications (JSAC), IEEE Journal Transactions on Networking (TON), IEEE Transactions on Communications, IEEE Communications Magazine.
+Reviewer for the IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), IEEE Military Communications Conference (MILCOM), International Symposium on Modeling and Optimization in Mobile Ad hoc, and Wireless Networks (WiOpt), IEEE Journal on Selected Areas in Communications (JSAC), IEEE Journal Transactions on Networking (TON), IEEE Transactions on Communications, IEEE Communications Magazine, IEEE Transactions on Quantum Engineering (TQE), IEEE Access. 
 
  
 
-Received conference travel grants for INFOCOM '23 & IFIP Networking '23.
 
  &nbsp;
  
