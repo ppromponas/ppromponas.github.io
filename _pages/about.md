@@ -211,6 +211,6 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
 ## Contact
 
 Panagiotis Promponas \
-Department of Electrical Engineering, Yale University \
+Department of Electrical and Computer Engineering, Yale University \
 17 Hillhouse Ave, New Haven, CT, 06511 \
 [panagiotis.promponas@yale.edu](mailto:panagiotis.promponas@yale.edu)
