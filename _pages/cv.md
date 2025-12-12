@@ -11,6 +11,11 @@ redirect_from:
 
 # Education
 
+**Ph.D. in Electrical & Computer Engineering** \
+_Yale University (2020-2026)_ \
+M.S., M.Phil. in Electrical & Computer Engineering en route 
+
+
 **Doctor of Philosophy in Electrical Engineering** \
 _Yale University (2020-2025)_
 
