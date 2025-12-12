@@ -17,7 +17,6 @@ M.S., M.Phil. in Electrical & Computer Engineering en route
 
 
 
-
 **Diploma in Electrical and Computer Engineering (Grade 8.78/10.00)** \
 _National Technical University of Athens (2013-2019) \
 Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00)_**
@@ -32,15 +31,9 @@ Specialization: Computer Science, Mathematics and Networks (_**_Grade 9.55/10.00
 # Experience
 
 
-
-
 **Graduate Research Assistant (Aug 2020 - Present)** \
-_Center for Quantum Networks, \
-NSF Engineering Research Center_
-
-**Graduate Research Assistant (Aug 2020 - Present)** \
-_Yale Institute for Network Science (YINS), \
-Yale University_
+_Yale Institute for Network Science & Center for Quantum Networks, \
+Research in quantum networks and network optimization_
 
 **Applied Scientist Intern (Aug 2024 - Feb 2025)** \
 _Amazon, \
@@ -48,11 +41,11 @@ Optimization at Amazon Transportation Services_
 
 **PhD Research Intern (Jul 2024 - Aug 2024)** \
 _Cisco Systems, \
-Worked on a compiler for measurement based Distributed Quantum Computing_
+Developed a compiler for measurement based Distributed Quantum Computing_
 
 **PhD Research Intern (May 2023 - Aug 2023)** \
 _Cisco Systems, \
-Worked on a compiler for gate based Distributed Quantum Computing_
+Developed a compiler for gate based Distributed Quantum Computing_
 
 **Graduate Teaching Fellow (Jan 2022 - May 2022)** \
 _EENG 310: Signals and Systems, \
