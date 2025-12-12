@@ -16,16 +16,7 @@ _Yale University (2020-2026)_ \
 M.S., M.Phil. in Electrical & Computer Engineering en route 
 
 
-**Doctor of Philosophy in Electrical Engineering** \
-_Yale University (2020-2025)_
 
-
-**Master of Philosophy in Electrical Engineering (Grade: Honours)** \
-_Yale University (2021-2022)_
-
-
-**Master of Science in Electrical Engineering (Grade: Honours)** \
-_Yale University (2020-2021)_
 
 **Diploma in Electrical and Computer Engineering (Grade 8.78/10.00)** \
 _National Technical University of Athens (2013-2019) \
