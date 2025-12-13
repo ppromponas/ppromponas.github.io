@@ -23,26 +23,45 @@
     <div class="container-fluid tm-container-content tm-mt-60">
 
         <div class="row mb-4">
-            <h2 class="col-12 tm-text-primary">Optimizing and Modeling Quantum Entanglement Networks</h2>
+            <h2 class="col-12 tm-text-primary">Optimizing and Modeling Quantum Entanglement Distribution Networks</h2>
         </div>
-
+        
         <div class="row mb-3 tm-gallery" style="margin-left:0.3cm;margin-right:0.3cm;">
             <p>
-                Quantum networks are systems of interconnected quantum devices that share entangled qubits across distances. These entanglement-based links form the foundation of quantum communication, enabling powerful capabilities such as quantum key distribution (QKD), distributed quantum computing, and high-precision quantum sensing. However, entanglement is fragile—loss and decoherence quickly degrade it over long distances, making entanglement distribution a critical research challenge.
+                Quantum networks distribute high-fidelity entanglement between distant users to enable secure communication, distributed sensing, and distributed quantum computing. In lossy optical channels, however, the success probability of each entanglement-generation attempt decays exponentially with distance. To overcome this, networks rely on intermediary nodes—such as <strong>quantum repeaters</strong> and <strong>quantum switches</strong>—that perform entanglement swapping to connect non-adjacent users.
             </p>
             <p>
-                A key component of such networks is the <strong>quantum repeater</strong>. These devices extend the range of entanglement by dividing long links into shorter segments and performing entanglement swapping and purification at intermediate nodes. Another core element is the <strong>quantum switch</strong>, which dynamically manages entanglement resources and efficiently connects users based on demand.
+                As we move from simple linear repeater chains to multi-user star and mesh topologies, the core challenge shifts from physical-layer noise management along a single path to network-layer <strong>scheduling, routing, and resource allocation</strong> across many competing user pairs. A quantum network receives requests for end-to-end entanglement between distant users while probabilistic link-level entanglement generation produces Bell pairs between neighbors that must be stored in noisy memories and consumed through entanglement swaps before decoherence destroys them.
             </p>
             <p>
-                These network elements are essential because large-scale, monolithic quantum processors are currently infeasible. Quantum systems are hard to scale due to hardware limitations and error rates. Instead, by connecting smaller quantum devices through entangled links, we can build scalable, modular architectures. My research models these entanglement distribution networks and develops scheduling and optimization methods for improving their capacity, performance, and robustness.
+                My research develops analytical models and control algorithms for these quantum switches and entanglement networks. I study how to exploit limited, imperfect quantum memories to <strong>maximize entanglement rates under fidelity constraints</strong>, characterize the throughput and fidelity regions of quantum switches with and without decoherence, and design scheduling and routing policies that fully utilize scarce resources. These results provide design guidelines for future architectures and control planes in large-scale quantum networks.
             </p>
-
+        
             <br>
             <h5>Selected Publications</h5>
-            <p>Valls, V., Promponas, P., & Tassiulas, L. <em>A Brief Introduction to Quantum Network Control.</em> IEEE Communications Magazine.</p>
-            <p>Promponas, P., Valls, V., & Tassiulas, L. <em>Maximizing Entanglement Rates via Efficient Memory Management in Flexible Quantum Switches.</em> IEEE Journal on Selected Areas in Communications, Special Issue on “The Quantum Internet: principles, protocols, and architectures”.</p>
-            <p>Valls, V., Promponas, P., & Tassiulas, L. <em>On the Capacity of the Quantum Switch with and without Entanglement Decoherence.</em> IEEE Communications Letters.</p>
+        
+            <p>
+                Promponas, P., Valls, V., Guha, S., &amp; Tassiulas, L. (2024). 
+                <em>Maximizing entanglement rates via efficient memory management in flexible quantum switches.</em> 
+                IEEE Journal on Selected Areas in Communications, 42(7), 1749–1762.
+            </p>
+            <p>
+                Promponas, P., Valls, V., &amp; Tassiulas, L. (2023, June). 
+                <em>Full exploitation of limited memory in quantum entanglement switching.</em> 
+                In 2023 IFIP Networking Conference (IFIP Networking) (pp. 1–9). IEEE.
+            </p>
+            <p>
+                Valls, V., Promponas, P., &amp; Tassiulas, L. (2024). 
+                <em>A Brief Introduction to Quantum Network Control.</em> 
+                IEEE Communications Magazine, 62(10), 48–53.
+            </p>
+            <p>
+                Valls, V., Promponas, P., &amp; Tassiulas, L. (2023). 
+                <em>On the capacity of the quantum switch with and without entanglement decoherence.</em> 
+                IEEE Communications Letters, 27(9), 2388–2392.
+            </p>
         </div>
+
 
         <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Distributed Quantum Computing and Compiler Design</h2>
@@ -92,3 +111,4 @@
 
 </body>
 </html>
+
