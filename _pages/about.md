@@ -34,7 +34,7 @@ I also interned at Amazon (Aug 2024–Feb 2025) as an Applied Scientist Intern w
 
 
 <span style="color:LightSlateGray;font-weight:600;font-size:19px">
-Website last update: Jul 15, 2025.
+Website last update: Dec 13, 2025.
 </span>
 
 
