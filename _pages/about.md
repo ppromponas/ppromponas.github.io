@@ -104,9 +104,9 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
 
 <br>
     <div class="container-fluid tm-container-content tm-mt-60" style="margin-top: -5px;">
-      <div class="row mb-4">
+      <!-- <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Modeling and Algorithms for Networking Systems</h2>
-        </div>
+        </div> -->
         <div class="row tm-mb-90 tm-gallery">
 
           
