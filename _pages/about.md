@@ -148,9 +148,9 @@ My supervisor is Professor [Leandros Tassiulas](https://seas.yale.edu/faculty-re
             <div class="container-fluid tm-container-content tm-mt-60" style="margin-top: -50px;">
         <div class="row tm-mb-90 tm-gallery">
           
-          <div class="row mb-4">
+          <!--  <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">&nbsp; Resource Allocation and Network Economics</h2>
-        </div>
+        </div> -->
           
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
