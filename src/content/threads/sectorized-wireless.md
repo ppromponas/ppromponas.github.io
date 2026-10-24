@@ -11,6 +11,6 @@ media:
   duration: "0:59"
 ---
 
-Sectorization lets a node activate several directional antennas, each covering a sector, which reshapes the network topology itself. We define a sectorized network model that captures how sectors form multi-hop paths and how interference depends on the sector configuration, and we characterize the resulting capacity region.
+Sectorization lets a node activate several directional antennas at once, each covering a sector, which reshapes the network topology itself. We model a multi-hop mesh of sectorized nodes together with the interference the sectors create, and characterize its capacity region through an auxiliary graph that depends on how every node is sectorized.
 
-Choosing the sectorization becomes an optimization problem, and reconfiguring it over time changes the effective topology as traffic changes. Our even homogeneous sectorization gives the effective graph a bipartite structure that simplifies capacity computation, speeds up routing and makes backpressure-style distributed control practical.
+Choosing the sectorization is then an optimization problem: we define the sectorization gain, which measures how far a given network flow can be scaled by sectorizing the nodes, and we give a distributed algorithm that finds a near-optimal sectorization. We also propose a class of sectorizations, even homogeneous sectorizations, that makes the auxiliary graph bipartite. Routing then becomes faster and the capacity region larger at the same time, and the more the network is sectorized, the stronger both effects. When sectors can be reconfigured over time, the network keeps this advantage while staying stable under unknown traffic.
