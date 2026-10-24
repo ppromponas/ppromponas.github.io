@@ -46,6 +46,7 @@ const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
     <section class="wrap thread" id={t.id} aria-labelledby={`${t.id}-h`}>
       {t.data.draft && <span class="draft-note">Draft</span>}
       <h2 id={`${t.id}-h`}>{t.data.title}</h2>
+      <p class="summary">{t.data.summary}</p>
       <div class="body"><Content /></div>
 
       {t.data.media?.type === 'video' && (
