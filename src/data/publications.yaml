@@ -111,6 +111,15 @@
   links:
     arxiv: https://arxiv.org/abs/2405.05875
 
+- id: comcom25
+  title: Optimizing Bandwidth Allocation in mmWave/sub-THz Cellular Networks Using Maximum Flow Algorithms
+  authors: K. N. Manganaris, P. Promponas, A. Tsolis, F. I. Lazarakis, and K. P. Peppas
+  year: 2025
+  type: journal
+  venue: Computer Communications, vol. 242
+  links:
+    doi: https://doi.org/10.1016/j.comcom.2025.108221
+
 - id: cdc24
   title: Throughput-Optimal Scheduling via Rate Learning
   authors: P. Promponas, V. Valls, K. Nikolakakis, D. Kalogerias, and L. Tassiulas

@@ -44,7 +44,7 @@ const publications = defineCollection({
     year: z.number(),
     type: z.enum(['journal', 'conference', 'workshop', 'preprint']),
     venue: z.string(),
-    pillar: z.string(),
+    pillar: z.string().optional(), // omit for a paper that should not appear in any research area
     thread: z.string().optional(),
     selected: z.boolean().optional(),
     badge: z.string().optional(),
