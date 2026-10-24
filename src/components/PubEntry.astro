@@ -1,8 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 
-interface Props { pub: CollectionEntry<'publications'>; showYear?: boolean }
-const { pub, showYear = true } = Astro.props;
+interface Props { pub: CollectionEntry<'publications'>; showYear?: boolean; showType?: boolean }
+const { pub, showYear = true, showType = false } = Astro.props;
+const typeLabel: Record<string, string> = { journal: 'Journal', conference: 'Conference', workshop: 'Workshop' };
 const d = pub.data;
 const ME = 'P. Promponas';
 const parts = d.authors.split(ME);
@@ -16,6 +17,7 @@ const href = d.links?.ieee ?? d.links?.doi ?? d.links?.arxiv ?? d.links?.pdf;
     {parts.map((s, i) => (<>{s}{i < parts.length - 1 && <b>{ME}</b>}</>))}
   </div>
   <div class="pub-meta">
+    {showType && typeLabel[d.type] && <span class="ptype">{typeLabel[d.type]}</span>}
     <span>{d.venue}{showYear ? `, ${d.year}` : ''}</span>
     {d.badge && <span class="badge">{d.badge}</span>}
   </div>

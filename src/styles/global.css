@@ -172,9 +172,9 @@ p { margin: 0; }
 .pub-authors b { color: var(--ink); font-weight: 600; }
 .pub-meta { font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
 .badge { padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 11.5px; letter-spacing: 0.04em; }
-.year-group { display: flex; flex-direction: column; margin-bottom: 40px; }
-.year-group[hidden] { display: none; }
-.year-group h2 { font-size: 26px; margin-bottom: 6px; }
+.pub-list { padding-bottom: 48px; }
+.pub-list .pubs { border-bottom: 1px solid var(--line); }
+.ptype { font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .filters { display: flex; flex-direction: column; margin-top: 24px; }
 .filter-row { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 12px 20px; align-items: center; padding: 12px 0; border-top: 1px solid var(--line); }
 .filter-row:last-of-type { border-bottom: 1px solid var(--line); margin-bottom: 24px; }
