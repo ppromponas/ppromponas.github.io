@@ -243,6 +243,7 @@ p { margin: 0; }
   .popover { left: 8px !important; width: calc(100% - 16px); }
   .foot { grid-template-columns: 1fr; }
   .nav { gap: 16px; }
+  .brand { white-space: nowrap; }
   .page-hero h1 { font-size: 34px; }
   .filter-row { grid-template-columns: 1fr; }
   .cv-item { grid-template-columns: 1fr; }
@@ -252,4 +253,9 @@ p { margin: 0; }
   html { scroll-behavior: auto; }
   .intro, .popover { animation: none; }
   .pillar, .pillar-art svg, .caret, .pill { transition: none; }
+}
+
+@media (max-width: 480px) {
+  .site-header { flex-direction: column; align-items: flex-start; gap: 12px; padding-top: 20px; padding-bottom: 18px; }
+  .nav { gap: 14px; }
 }
