@@ -37,7 +37,8 @@
   venue: International Conference on Machine Learning (ICML)
   pillar: network-control
   thread: learning-on-graphs
-  links: {}
+  links:
+    arxiv: https://arxiv.org/abs/2605.00716
 
 - id: aistats26
   title: "Archetypal Graph Generative Models: Explainable and Identifiable Communities via Anchor-Dominant Convex Hulls"
@@ -71,7 +72,8 @@
   pillar: network-control
   thread: sectorized-wireless
   selected: true
-  links: {}
+  links:
+    doi: https://doi.org/10.1109/TON.2025.3583267
 
 - id: tac25
   title: Risk-Aware Satisfaction Equilibria in Resource Sharing Games
@@ -161,7 +163,8 @@
   venue: ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)
   pillar: network-control
   thread: sectorized-wireless
-  links: {}
+  links:
+    doi: https://doi.org/10.1145/3565287.3610272
 
 - id: ifip23
   title: Full Exploitation of Limited Memory in Quantum Entanglement Switching
@@ -193,7 +196,8 @@
   venue: Workshop on Quantum Systems and Computation, ACM SIGMETRICS
   pillar: quantum-networks
   thread: quantum-switches
-  links: {}
+  links:
+    doi: https://doi.org/10.1145/3626570.3626598
 
 - id: ton21
   title: Games in Normal and Satisfaction Form for Efficient Transmission Power Allocation Under Dual 5G Wireless Multiple Access Paradigm
@@ -203,7 +207,8 @@
   venue: IEEE/ACM Transactions on Networking
   pillar: network-control
   thread: games-and-mechanisms
-  links: {}
+  links:
+    doi: https://doi.org/10.1109/TNET.2021.3095351
 
 - id: tcns21
   title: "Rethinking Power Control in Wireless Networks: The Perspective of Satisfaction Equilibrium"
@@ -213,7 +218,8 @@
   venue: IEEE Transactions on Control of Network Systems
   pillar: network-control
   thread: games-and-mechanisms
-  links: {}
+  links:
+    doi: https://doi.org/10.1109/TCNS.2021.3078123
 
 - id: mmor21
   title: A Fragile Multi-CPR Game
@@ -234,7 +240,8 @@
   venue: IEEE Network
   pillar: network-control
   thread: games-and-mechanisms
-  links: {}
+  links:
+    doi: https://doi.org/10.1109/MNET.011.2000368
 
 - id: wmnc19
   title: Redesigning Resource Management in Wireless Networks Based on Games in Satisfaction Form
@@ -245,4 +252,5 @@
   pillar: network-control
   thread: games-and-mechanisms
   badge: Best Paper Award
-  links: {}
+  links:
+    doi: https://doi.org/10.23919/WMNC.2019.8881826
