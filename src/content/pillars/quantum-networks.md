@@ -1,7 +1,7 @@
 ---
 title: Quantum networks
 order: 1
-lead: How switches and memories distribute entanglement, and how to design a network of them.
+lead: How switches distribute entanglement, and how to design a network of them.
 illustration: quantum
 ---
 

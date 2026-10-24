@@ -45,7 +45,7 @@ const publications = defineCollection({
     type: z.enum(['journal', 'conference', 'workshop', 'preprint']),
     venue: z.string(),
     pillar: z.string(),
-    thread: z.string(),
+    thread: z.string().optional(),
     selected: z.boolean().optional(),
     badge: z.string().optional(),
     note: z.string().optional(),

@@ -11,7 +11,7 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
 
 <a class="skip" href="#main">Skip to content</a>
 <header class="wrap site-header">
-  <a class="brand" href="/">Panagiotis Promponas</a>
+  <a class="brand" href="/">Panos Promponas</a>
   <nav class="nav" aria-label="Main">
     {items.map(([href, label]) => <a href={href} aria-current={isCurrent(href) ? 'page' : undefined}>{label}</a>)}
     <button class="theme-toggle" type="button" aria-label="Toggle dark mode">

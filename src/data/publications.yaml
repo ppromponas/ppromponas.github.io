@@ -80,7 +80,7 @@
   type: journal
   venue: IEEE Transactions on Automatic Control, vol. 70, no. 1
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   selected: true
   links:
     ieee: https://ieeexplore.ieee.org/document/10592794
@@ -104,7 +104,7 @@
   type: journal
   venue: Journal of Quantum Computing
   pillar: distributed-quantum-computing
-  thread: qubit-mapping-routing
+  thread: compilers
   note: Venue to confirm.
   links:
     arxiv: https://arxiv.org/abs/2405.05875
@@ -116,7 +116,6 @@
   type: conference
   venue: IEEE Conference on Decision and Control (CDC)
   pillar: network-control
-  thread: rate-learning
   links:
     arxiv: https://arxiv.org/abs/2409.09198
 
@@ -182,7 +181,7 @@
   type: conference
   venue: IEEE International Conference on Computer Communications (INFOCOM)
   pillar: network-control
-  thread: network-slicing
+  thread: games-and-mechanisms
   links:
     arxiv: https://arxiv.org/abs/2301.02840
 
@@ -203,7 +202,7 @@
   type: journal
   venue: IEEE/ACM Transactions on Networking
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   links: {}
 
 - id: tcns21
@@ -213,7 +212,7 @@
   type: journal
   venue: IEEE Transactions on Control of Network Systems
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   links: {}
 
 - id: mmor21
@@ -223,7 +222,7 @@
   type: journal
   venue: Mathematical Methods of Operations Research, vol. 94
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   links:
     doi: https://doi.org/10.1007/s00186-021-00766-6
 
@@ -234,7 +233,7 @@
   type: journal
   venue: IEEE Network
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   links: {}
 
 - id: wmnc19
@@ -244,6 +243,6 @@
   type: conference
   venue: IFIP Wireless and Mobile Networking Conference (WMNC)
   pillar: network-control
-  thread: satisfaction-games
+  thread: games-and-mechanisms
   badge: Best Paper Award
   links: {}

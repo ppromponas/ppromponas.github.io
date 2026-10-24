@@ -1,7 +1,7 @@
 ---
 title: Learning on graphs
 pillar: network-control
-order: 5
+order: 3
 summary: What latent graph models can express, and generative models with identifiable communities.
 ---
 
