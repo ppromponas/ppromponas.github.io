@@ -4,3 +4,6 @@ dist/
 .DS_Store
 npm-debug.log*
 .env
+
+# Held-back material lives outside the repo, in ../unpublished. Never commit it.
+unpublished/
