@@ -1,7 +1,7 @@
 ---
 title: Network design and control
 pillar: quantum-networks
-order: 3
+order: 2
 summary: Where to place sources and swap units on a fiber network, and how to operate them.
 media:
   type: video

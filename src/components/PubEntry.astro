@@ -1,8 +1,8 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 
-interface Props { pub: CollectionEntry<'publications'>; showYear?: boolean }
-const { pub, showYear = true } = Astro.props;
+interface Props { pub: CollectionEntry<'publications'>; showYear?: boolean; compact?: boolean }
+const { pub, showYear = true, compact = false } = Astro.props;
 const d = pub.data;
 const ME = 'P. Promponas';
 const parts = d.authors.split(ME);
@@ -12,7 +12,8 @@ if (d.links?.arxiv) links.push(['arXiv', d.links.arxiv]);
 if (d.links?.doi) links.push(['DOI', d.links.doi]);
 if (d.links?.ieee) links.push(['IEEE Xplore', d.links.ieee]);
 if (d.links?.code) links.push(['Code', d.links.code]);
-const href = links.length ? links[links.length - 1][1] : undefined;
+// The title carries one link: publisher page first, then arXiv, then a hosted PDF.
+const href = d.links?.ieee ?? d.links?.doi ?? d.links?.arxiv ?? d.links?.pdf;
 ---
 
 <article class="pub" data-year={d.year} data-type={d.type} data-pillar={d.pillar} data-thread={d.thread}>
@@ -23,6 +24,6 @@ const href = links.length ? links[links.length - 1][1] : undefined;
   <div class="pub-meta">
     <span>{d.venue}{showYear ? `, ${d.year}` : ''}</span>
     {d.badge && <span class="badge">{d.badge}</span>}
-    {links.map(([label, url]) => (<><span class="sep">·</span><a class="sl" href={url}>{label}</a></>))}
+    {!compact && links.map(([label, url]) => (<><span class="sep">·</span><a class="sl" href={url}>{label}</a></>))}
   </div>
 </article>

@@ -39,7 +39,7 @@ const threadsOf = (id: string) =>
       </div>
       <a class="prow" href={`/research/${p.id}/`}>
         <svg aria-hidden="true" width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d={icons.overview}></path></svg>
-        <span><span class="pn">Overview of {p.data.title.toLowerCase()}</span><span class="pd">Everything in this area on one page.</span></span>
+        <span><span class="pn">Overview</span><span class="pd">A summary of this research area.</span></span>
       </a>
       {threadsOf(p.id).map((t) => (
         <a class="prow" href={`/research/${p.id}/#${t.id}`}>
