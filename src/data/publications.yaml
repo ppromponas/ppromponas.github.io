@@ -117,6 +117,7 @@
   year: 2025
   type: journal
   venue: Computer Communications, vol. 242
+  pillar: network-control
   links:
     doi: https://doi.org/10.1016/j.comcom.2025.108221
 
