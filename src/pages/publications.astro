@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import PubEntry from '../components/PubEntry.astro';
+import { getCollection } from 'astro:content';
+
+const pubs = (await getCollection('publications')).sort((a, b) => b.data.year - a.data.year);
+const years = [...new Set(pubs.map((p) => p.data.year))];
+const pillars = (await getCollection('pillars')).sort((a, b) => a.data.order - b.data.order);
+const types: [string, string][] = [['journal', 'Journal'], ['conference', 'Conference'], ['workshop', 'Workshop'], ['preprint', 'Preprint']];
+---
+
+<Base title="Publications · Panagiotis Promponas" description="Publications of Panagiotis Promponas on quantum networks, distributed quantum computing, and network control and optimization.">
+  <section class="wrap page-hero">
+    <div class="eyebrow">Publications</div>
+    <h1>Publications</h1>
+    <p class="lead">Filter by area or by type. Also on <a class="tl" href="https://scholar.google.com/citations?user=-1WgCd8AAAAJ&hl=en">Google Scholar</a>.</p>
+  </section>
+
+  <section class="wrap filters" data-filters aria-label="Filters">
+    <div class="filter-row">
+      <span class="eyebrow">Area</span>
+      <div class="pills" role="group" aria-label="Area">
+        <button class="pill" type="button" data-filter="pillar" data-value="all" aria-pressed="true">All areas</button>
+        {pillars.map((p) => <button class="pill" type="button" data-filter="pillar" data-value={p.id} aria-pressed="false">{p.data.title}</button>)}
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="eyebrow">Type</span>
+      <div class="pills" role="group" aria-label="Type">
+        <button class="pill" type="button" data-filter="type" data-value="all" aria-pressed="true">All types</button>
+        {types.map(([v, l]) => <button class="pill" type="button" data-filter="type" data-value={v} aria-pressed="false">{l}</button>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-live="polite">
+    {years.map((y) => (
+      <div class="year-group" data-year-group={y}>
+        <h2>{y}</h2>
+        <div class="pubs">{pubs.filter((p) => p.data.year === y).map((p) => <PubEntry pub={p} showYear={false} />)}</div>
+      </div>
+    ))}
+    <p class="empty" hidden>No papers match these filters.</p>
+  </section>
+</Base>
+
+<script>
+  const state: Record<string, string> = { pillar: 'all', type: 'all' };
+  const pills = document.querySelectorAll<HTMLButtonElement>('[data-filters] .pill');
+  const pubs = document.querySelectorAll<HTMLElement>('.pub');
+  const groups = document.querySelectorAll<HTMLElement>('.year-group');
+  const empty = document.querySelector<HTMLElement>('.empty');
+
+  function apply() {
+    let shown = 0;
+    pubs.forEach((p) => {
+      const ok = (state.pillar === 'all' || p.dataset.pillar === state.pillar) && (state.type === 'all' || p.dataset.type === state.type);
+      p.hidden = !ok;
+      if (ok) shown++;
+    });
+    groups.forEach((g) => { g.hidden = !Array.from(g.querySelectorAll<HTMLElement>('.pub')).some((p) => !p.hidden); });
+    if (empty) empty.hidden = shown > 0;
+  }
+
+  pills.forEach((pill) => {
+    pill.addEventListener('click', () => {
+      const key = pill.dataset.filter!;
+      state[key] = pill.dataset.value!;
+      pills.forEach((o) => { if (o.dataset.filter === key) o.setAttribute('aria-pressed', o === pill ? 'true' : 'false'); });
+      apply();
+    });
+  });
+</script>

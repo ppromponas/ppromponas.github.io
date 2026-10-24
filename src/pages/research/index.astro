@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import PillarBoxes from '../../components/PillarBoxes.astro';
+import { getCollection } from 'astro:content';
+
+const pillars = (await getCollection('pillars')).sort((a, b) => a.data.order - b.data.order);
+const threads = await getCollection('threads');
+---
+
+<Base title="Research · Panagiotis Promponas" description="Research areas: quantum networks, distributed quantum computing, network control and optimization.">
+  <section class="wrap page-hero">
+    <div class="eyebrow">Research</div>
+    <h1>Three areas</h1>
+    <p class="lead">Each area has its own page with the threads inside it: a description, the papers, and an animation when there is one.</p>
+  </section>
+  <section class="wrap research" style="padding-bottom: 40px">
+    <PillarBoxes pillars={pillars} threads={threads} />
+  </section>
+</Base>

@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import LivingGraph from '../components/LivingGraph.astro';
+import PillarBoxes from '../components/PillarBoxes.astro';
+import PubEntry from '../components/PubEntry.astro';
+import { getCollection } from 'astro:content';
+
+const pillars = (await getCollection('pillars')).sort((a, b) => a.data.order - b.data.order);
+const threads = await getCollection('threads');
+const selected = (await getCollection('publications'))
+  .filter((p) => p.data.selected)
+  .sort((a, b) => b.data.year - a.data.year);
+
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Panagiotis Promponas',
+  url: 'https://ppromponas.com/',
+  image: 'https://ppromponas.com/images/panos.jpg',
+  jobTitle: 'Ph.D. candidate',
+  affiliation: { '@type': 'Organization', name: 'Yale University' },
+  sameAs: [
+    'https://scholar.google.com/citations?user=-1WgCd8AAAAJ&hl=en',
+    'https://github.com/ppromponas',
+    'https://www.linkedin.com/in/panagiotis-promponas/',
+    'https://www.researchgate.net/profile/Panagiotis-Promponas',
+  ],
+};
+---
+
+<Base title="Panagiotis Promponas">
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(person)} />
+
+  <section class="hero" aria-label="Introduction">
+    <LivingGraph object="cloud" bond="wave" />
+    <div class="wrap hero-inner">
+      <div class="byline intro">
+        <img src="/images/panos.jpg" alt="Portrait of Panagiotis Promponas" width="136" height="136" />
+        <div>
+          <h1>Panagiotis Promponas</h1>
+          <div class="role">Ph.D. candidate, Electrical &amp; Computer Engineering, Yale University</div>
+        </div>
+      </div>
+      <p class="statement intro i1">
+        I design models and algorithms for networked systems, from quantum entanglement networks and distributed quantum computing to classical network control and learning on graphs.
+      </p>
+      <div class="links intro i2">
+        <a class="tl" href="mailto:panagiotis.promponas@yale.edu">Email</a><span class="sep">·</span>
+        <a class="tl" href="https://scholar.google.com/citations?user=-1WgCd8AAAAJ&hl=en">Google Scholar</a><span class="sep">·</span>
+        <a class="tl" href="https://github.com/ppromponas">GitHub</a><span class="sep">·</span>
+        <a class="tl" href="https://www.linkedin.com/in/panagiotis-promponas/">LinkedIn</a><span class="sep">·</span>
+        <a class="tl" href="/cv/">CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="wrap section research" aria-labelledby="research-h">
+    <h2 id="research-h" class="section-title">Research</h2>
+    <PillarBoxes pillars={pillars} threads={threads} />
+  </section>
+
+  <section id="publications" class="wrap section" aria-labelledby="pubs-h">
+    <div class="section-head">
+      <h2 id="pubs-h" class="section-title">Selected publications</h2>
+      <a class="sl" href="/publications/">All publications</a>
+    </div>
+    <div class="pubs">
+      {selected.map((p) => <PubEntry pub={p} />)}
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props { pub: CollectionEntry<'publications'>; showYear?: boolean }
+const { pub, showYear = true } = Astro.props;
+const d = pub.data;
+const ME = 'P. Promponas';
+const parts = d.authors.split(ME);
+const links: [string, string][] = [];
+if (d.links?.pdf) links.push(['PDF', d.links.pdf]);
+if (d.links?.arxiv) links.push(['arXiv', d.links.arxiv]);
+if (d.links?.doi) links.push(['DOI', d.links.doi]);
+if (d.links?.ieee) links.push(['IEEE Xplore', d.links.ieee]);
+if (d.links?.code) links.push(['Code', d.links.code]);
+const href = links.length ? links[links.length - 1][1] : undefined;
+---
+
+<article class="pub" data-year={d.year} data-type={d.type} data-pillar={d.pillar} data-thread={d.thread}>
+  {href ? <a class="pub-title" href={href}>{d.title}</a> : <span class="pub-title">{d.title}</span>}
+  <div class="pub-authors">
+    {parts.map((s, i) => (<>{s}{i < parts.length - 1 && <b>{ME}</b>}</>))}
+  </div>
+  <div class="pub-meta">
+    <span>{d.venue}{showYear ? `, ${d.year}` : ''}</span>
+    {d.badge && <span class="badge">{d.badge}</span>}
+    {links.map(([label, url]) => (<><span class="sep">·</span><a class="sl" href={url}>{label}</a></>))}
+  </div>
+</article>

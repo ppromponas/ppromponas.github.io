@@ -1,0 +1,249 @@
+# Every paper on the site. One entry per paper.
+# Fields: id (unique), title, authors (use "P. Promponas" exactly, it is bolded automatically),
+# year, type (journal | conference | workshop | preprint), venue, pillar, thread,
+# selected (shown on the home page), badge (award, spotlight), links (pdf, arxiv, doi, ieee, code).
+# pdf paths point into /papers/ once the PDFs are copied there.
+
+- id: qcnc26
+  title: Rate-Fidelity Tradeoffs in All-Photonic and Memory-Equipped Quantum Switches
+  authors: P. Promponas, L. Bacciottini, P. Polakos, G. Vardoyan, D. Towsley, and L. Tassiulas
+  year: 2026
+  type: conference
+  venue: IEEE International Conference on Quantum Communications, Networking, and Computing (QCNC)
+  pillar: quantum-networks
+  thread: quantum-switches
+  selected: true
+  links:
+    doi: https://doi.org/10.1109/QCNC69040.2026.00013
+
+- id: neurips26
+  title: "Rank Is Not Capacity: Spectral Occupancy for Latent Graph Models"
+  authors: N. Nakis*, P. Promponas*, K. Tsirkas, K. Mamali, E. Makri, L. Tassiulas, and N. A. Christakis
+  year: 2026
+  type: conference
+  venue: Advances in Neural Information Processing Systems (NeurIPS)
+  pillar: network-control
+  thread: learning-on-graphs
+  selected: true
+  badge: Equal contribution
+  links:
+    arxiv: https://arxiv.org/abs/2605.11142
+
+- id: icml26
+  title: Aitchison Embeddings for Learning Compositional Graph Representations
+  authors: N. Nakis, C. Kosma, P. Promponas, M. Chatzianastasis, and G. Nikolentzos
+  year: 2026
+  type: conference
+  venue: International Conference on Machine Learning (ICML)
+  pillar: network-control
+  thread: learning-on-graphs
+  links: {}
+
+- id: aistats26
+  title: "Archetypal Graph Generative Models: Explainable and Identifiable Communities via Anchor-Dominant Convex Hulls"
+  authors: N. Nakis, C. Kosma, P. Promponas, M. Chatzianastasis, and G. Nikolentzos
+  year: 2026
+  type: conference
+  venue: International Conference on Artificial Intelligence and Statistics (AISTATS)
+  pillar: network-control
+  thread: learning-on-graphs
+  badge: Spotlight
+  links:
+    arxiv: https://arxiv.org/abs/2602.21342
+
+- id: capacity-driven
+  title: Capacity-Driven Design and Operation of Quantum Networks
+  authors: P. Promponas et al.
+  year: 2026
+  type: preprint
+  venue: Working paper
+  pillar: quantum-networks
+  thread: network-design-control
+  note: Co-authors and status to confirm before launch.
+  links: {}
+
+- id: ton25
+  title: On the Optimization and Stability of Sectorized Wireless Networks
+  authors: P. Promponas, T. Chen, and L. Tassiulas
+  year: 2025
+  type: journal
+  venue: IEEE Transactions on Networking, vol. 33, no. 6
+  pillar: network-control
+  thread: sectorized-wireless
+  selected: true
+  links: {}
+
+- id: tac25
+  title: Risk-Aware Satisfaction Equilibria in Resource Sharing Games
+  authors: P. Promponas, C. Pelekis, E. E. Tsiropoulou, and S. Papavassiliou
+  year: 2025
+  type: journal
+  venue: IEEE Transactions on Automatic Control, vol. 70, no. 1
+  pillar: network-control
+  thread: satisfaction-games
+  selected: true
+  links:
+    ieee: https://ieeexplore.ieee.org/document/10592794
+
+- id: icc25
+  title: "Compiler for Distributed Quantum Computing: A Reinforcement Learning Approach"
+  authors: P. Promponas, A. Mudvari, L. Della Chiesa, P. Polakos, L. Samuel, and L. Tassiulas
+  year: 2025
+  type: conference
+  venue: IEEE International Conference on Communications (ICC)
+  pillar: distributed-quantum-computing
+  thread: compilers
+  selected: true
+  links:
+    arxiv: https://arxiv.org/abs/2404.17077
+
+- id: genetic25
+  title: A Genetic Approach to Minimising Gate and Qubit Teleportations for Multi-Processor Quantum Circuit Distribution
+  authors: O. Crampton, P. Promponas, R. Chen, P. Polakos, L. Tassiulas, and L. Samuel
+  year: 2025
+  type: journal
+  venue: Journal of Quantum Computing
+  pillar: distributed-quantum-computing
+  thread: qubit-mapping-routing
+  note: Venue to confirm.
+  links:
+    arxiv: https://arxiv.org/abs/2405.05875
+
+- id: cdc24
+  title: Throughput-Optimal Scheduling via Rate Learning
+  authors: P. Promponas, V. Valls, K. Nikolakakis, D. Kalogerias, and L. Tassiulas
+  year: 2024
+  type: conference
+  venue: IEEE Conference on Decision and Control (CDC)
+  pillar: network-control
+  thread: rate-learning
+  links:
+    arxiv: https://arxiv.org/abs/2409.09198
+
+- id: jsac24
+  title: Maximizing Entanglement Rates via Efficient Memory Management in Flexible Quantum Switches
+  authors: P. Promponas, V. Valls, S. Guha, and L. Tassiulas
+  year: 2024
+  type: journal
+  venue: IEEE Journal on Selected Areas in Communications, vol. 42, no. 7, Special Issue on the Quantum Internet
+  pillar: quantum-networks
+  thread: quantum-switches
+  selected: true
+  links:
+    ieee: https://ieeexplore.ieee.org/document/10478297
+
+- id: commag24
+  title: A Brief Introduction to Quantum Network Control
+  authors: V. Valls, P. Promponas, and L. Tassiulas
+  year: 2024
+  type: journal
+  venue: IEEE Communications Magazine, vol. 62, no. 10
+  pillar: quantum-networks
+  thread: network-design-control
+  links:
+    arxiv: https://arxiv.org/abs/2407.19899
+
+- id: commlett23
+  title: On the Capacity of the Quantum Switch With and Without Entanglement Decoherence
+  authors: V. Valls, P. Promponas, and L. Tassiulas
+  year: 2023
+  type: journal
+  venue: IEEE Communications Letters, vol. 27, no. 9
+  pillar: quantum-networks
+  thread: quantum-switches
+  links:
+    ieee: https://ieeexplore.ieee.org/abstract/document/10168120
+
+- id: mobihoc23
+  title: "Optimizing Sectorized Wireless Networks: Model, Analysis, and Algorithm"
+  authors: P. Promponas, T. Chen, and L. Tassiulas
+  year: 2023
+  type: conference
+  venue: ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)
+  pillar: network-control
+  thread: sectorized-wireless
+  links: {}
+
+- id: ifip23
+  title: Full Exploitation of Limited Memory in Quantum Entanglement Switching
+  authors: P. Promponas, V. Valls, and L. Tassiulas
+  year: 2023
+  type: conference
+  venue: IFIP Networking Conference
+  pillar: quantum-networks
+  thread: quantum-switches
+  links:
+    arxiv: https://arxiv.org/abs/2304.10602
+
+- id: infocom23
+  title: "Network Slicing: Market Mechanism and Competitive Equilibria"
+  authors: P. Promponas and L. Tassiulas
+  year: 2023
+  type: conference
+  venue: IEEE International Conference on Computer Communications (INFOCOM)
+  pillar: network-control
+  thread: network-slicing
+  links:
+    arxiv: https://arxiv.org/abs/2301.02840
+
+- id: sigm23
+  title: Quantum Switch Scheduling for Information Qubits
+  authors: P. Promponas, V. Valls, and L. Tassiulas
+  year: 2023
+  type: workshop
+  venue: Workshop on Quantum Systems and Computation, ACM SIGMETRICS
+  pillar: quantum-networks
+  thread: quantum-switches
+  links: {}
+
+- id: ton21
+  title: Games in Normal and Satisfaction Form for Efficient Transmission Power Allocation Under Dual 5G Wireless Multiple Access Paradigm
+  authors: P. Promponas, C. Pelekis, E. E. Tsiropoulou, and S. Papavassiliou
+  year: 2021
+  type: journal
+  venue: IEEE/ACM Transactions on Networking
+  pillar: network-control
+  thread: satisfaction-games
+  links: {}
+
+- id: tcns21
+  title: "Rethinking Power Control in Wireless Networks: The Perspective of Satisfaction Equilibrium"
+  authors: P. Promponas, E. E. Tsiropoulou, and S. Papavassiliou
+  year: 2021
+  type: journal
+  venue: IEEE Transactions on Control of Network Systems
+  pillar: network-control
+  thread: satisfaction-games
+  links: {}
+
+- id: mmor21
+  title: A Fragile Multi-CPR Game
+  authors: C. Pelekis, P. Promponas, J. Alvarado, E. E. Tsiropoulou, and S. Papavassiliou
+  year: 2021
+  type: journal
+  venue: Mathematical Methods of Operations Research, vol. 94
+  pillar: network-control
+  thread: satisfaction-games
+  links:
+    doi: https://doi.org/10.1007/s00186-021-00766-6
+
+- id: network20
+  title: A Paradigm Shift Toward Satisfaction, Realism and Efficiency in Wireless Networks Resource Sharing
+  authors: S. Papavassiliou, E. E. Tsiropoulou, P. Promponas, and P. Vamvakas
+  year: 2020
+  type: journal
+  venue: IEEE Network
+  pillar: network-control
+  thread: satisfaction-games
+  links: {}
+
+- id: wmnc19
+  title: Redesigning Resource Management in Wireless Networks Based on Games in Satisfaction Form
+  authors: P. Promponas, P. A. Apostolopoulos, E. E. Tsiropoulou, and S. Papavassiliou
+  year: 2019
+  type: conference
+  venue: IFIP Wireless and Mobile Networking Conference (WMNC)
+  pillar: network-control
+  thread: satisfaction-games
+  badge: Best Paper Award
+  links: {}

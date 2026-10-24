@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import PubEntry from '../../components/PubEntry.astro';
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pillars = await getCollection('pillars');
+  return pillars.map((pillar) => ({ params: { pillar: pillar.id }, props: { pillar } }));
+}
+
+interface Props { pillar: CollectionEntry<'pillars'> }
+const { pillar } = Astro.props;
+const { Content: PillarIntro } = await render(pillar);
+
+const threads = (await getCollection('threads'))
+  .filter((t) => t.data.pillar === pillar.id)
+  .sort((a, b) => a.data.order - b.data.order);
+const pubs = await getCollection('publications');
+
+const sections = await Promise.all(
+  threads.map(async (t) => ({
+    t,
+    Content: (await render(t)).Content,
+    papers: pubs.filter((p) => p.data.thread === t.id).sort((a, b) => b.data.year - a.data.year),
+  })),
+);
+const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
+---
+
+<Base title={`${pillar.data.title} · Panagiotis Promponas`} description={pillar.data.lead}>
+  {needsDemo && <script slot="head" is:inline src="/media/dqc-compiler.js"></script>}
+
+  <section class="wrap page-hero">
+    <div class="eyebrow">Research</div>
+    <h1>{pillar.data.title}</h1>
+    <p class="lead">{pillar.data.lead}</p>
+    <div class="intro-body"><PillarIntro /></div>
+  </section>
+
+  <nav class="wrap subnav" aria-label="Threads in this area">
+    {threads.map((t) => <a href={`#${t.id}`}>{t.data.title}</a>)}
+  </nav>
+
+  {sections.map(({ t, Content, papers }) => (
+    <section class="wrap thread" id={t.id} aria-labelledby={`${t.id}-h`}>
+      {t.data.draft && <span class="draft-note">Draft</span>}
+      <h2 id={`${t.id}-h`}>{t.data.title}</h2>
+      <p class="summary">{t.data.summary}</p>
+      <div class="body"><Content /></div>
+
+      {t.data.media?.type === 'video' && (
+        <figure class="figure">
+          <video controls preload="none" playsinline poster={t.data.media.poster} width="1280" height="720">
+            <source src={t.data.media.src} type="video/mp4" />
+            Your browser cannot play this video.
+          </video>
+          <figcaption><span>{t.data.media.caption}</span><span>Video · {t.data.media.duration}</span></figcaption>
+        </figure>
+      )}
+
+      {t.data.media?.type === 'demo' && (
+        <figure class="figure">
+          <div class="demo"><dqc-compiler theme="auto"></dqc-compiler></div>
+          <figcaption><span>{t.data.media.caption}</span><span>Live demo</span></figcaption>
+        </figure>
+      )}
+
+      {papers.length > 0 && (
+        <>
+          <div class="eyebrow papers-label">Papers</div>
+          <div class="pubs">{papers.map((p) => <PubEntry pub={p} />)}</div>
+        </>
+      )}
+    </section>
+  ))}
+</Base>
+
+<script>
+  // Keep the embedded demo in step with the site theme toggle.
+  function apply(theme: string) {
+    document.querySelectorAll('dqc-compiler').forEach((el) => el.setAttribute('theme', theme));
+  }
+  const saved = document.documentElement.getAttribute('data-theme');
+  if (saved) apply(saved);
+  document.addEventListener('themechange', (e) => apply((e as CustomEvent<string>).detail));
+</script>
