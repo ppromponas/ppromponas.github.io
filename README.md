@@ -12,7 +12,7 @@ npm run build      # static output in dist/
 
 ## Add a paper
 
-Add an entry to `src/data/publications.yaml`. Fields: `id`, `title`, `authors` (write yourself as `P. Promponas`), `year`, `type` (journal, conference, workshop, preprint), `venue`, optional `pillar` (area id) and `thread` (thread id), optional `selected: true` for the home page, optional `badge`, and `links` (`doi`, `ieee`, `arxiv`, `pdf`). A paper with a `thread` appears on that area page; a paper with only a `pillar` appears on the publications page under that area filter; a paper with neither appears only under "All areas".
+Add an entry to `src/data/publications.yaml`. Fields: `id`, `title`, `authors` (write yourself as `P. Promponas`), `year`, `type` (journal, conference, workshop, preprint), `venue`, optional `pillar` (area id) and `thread` (thread id), optional `selected: true` for the home page (quantum papers are listed first there, newest first within each group), optional `badge`, and `links` (`doi`, `ieee`, `arxiv`, `pdf`). A paper with a `thread` appears on that area page; a paper with only a `pillar` appears on the publications page under that area filter; a paper with neither appears only under "All areas".
 
 ## Add or rename a thread
 

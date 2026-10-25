@@ -4,12 +4,16 @@ import LivingGraph from '../components/LivingGraph.astro';
 import PillarBoxes from '../components/PillarBoxes.astro';
 import PubEntry from '../components/PubEntry.astro';
 import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 
 const pillars = (await getCollection('pillars')).sort((a, b) => a.data.order - b.data.order);
 const threads = await getCollection('threads');
+// Quantum papers lead, since the home page puts the emphasis on quantum; newest first within each group.
+const QUANTUM_AREAS = new Set(['quantum-networks', 'distributed-quantum-computing']);
+const isQuantum = (p: CollectionEntry<'publications'>) => QUANTUM_AREAS.has(p.data.pillar ?? '');
 const selected = (await getCollection('publications'))
   .filter((p) => p.data.selected)
-  .sort((a, b) => b.data.year - a.data.year);
+  .sort((a, b) => Number(isQuantum(b)) - Number(isQuantum(a)) || b.data.year - a.data.year);
 
 const person = {
   '@context': 'https://schema.org',
@@ -38,7 +42,7 @@ const person = {
         <img src="/images/panos.jpg" alt="Portrait of Panagiotis Promponas" width="136" height="136" />
         <div>
           <h1>Panagiotis (Panos) Promponas</h1>
-          <div class="role">Ph.D. candidate, Electrical &amp; Computer Engineering, Yale University<br />Advised by Leandros Tassiulas</div>
+          <div class="role">Ph.D. candidate, Electrical &amp; Computer Engineering, Yale University<br />Advised by <a class="tl" href="https://engineering.yale.edu/research-and-faculty/faculty-directory/leandros-tassiulas">Leandros Tassiulas</a></div>
         </div>
       </div>
       <p class="statement intro i1">
