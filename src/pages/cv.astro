@@ -17,17 +17,17 @@ import Base from '../layouts/Base.astro';
   <section class="wrap cv-section" id="education" aria-labelledby="education-h">
     <h2 id="education-h">Education</h2>
     <div class="cv-item">
-      <div class="cv-when">2020 to 2026, expected</div>
+      <div class="cv-when">Aug 2020 to Dec 2026, expected</div>
       <div class="cv-what">
         <strong>Ph.D. in Electrical &amp; Computer Engineering</strong>
-        <span class="where">Yale University. M.S. and M.Phil. en route.</span>
+        <span class="where">Yale University, New Haven, CT. Advisor: <a href="https://engineering.yale.edu/research-and-faculty/faculty-directory/leandros-tassiulas">Leandros Tassiulas</a>. M.S. and M.Phil. in Electrical &amp; Computer Engineering en route.</span>
       </div>
     </div>
     <div class="cv-item">
       <div class="cv-when">2013 to 2019</div>
       <div class="cv-what">
         <strong>Diploma in Electrical &amp; Computer Engineering</strong>
-        <span class="where">National Technical University of Athens. Five-year diploma, integrated master’s level; specialization in computer science, mathematics and networks.</span>
+        <span class="where">National Technical University of Athens, Greece. Five-year diploma (integrated master’s level); specialization in Computer Science, Mathematics and Networks.</span>
       </div>
     </div>
   </section>
@@ -38,10 +38,11 @@ import Base from '../layouts/Base.astro';
       <div class="cv-when">Aug 2020 to present</div>
       <div class="cv-what">
         <strong>Graduate Research Assistant</strong>
-        <span class="where">Yale Institute for Network Science and NSF Center for Quantum Networks (2020 to 2025)</span>
+        <span class="where">Yale Institute for Network Science and NSF Center for Quantum Networks (2020 to 2025), Yale University</span>
         <ul>
-          <li>Models and control policies for quantum entanglement networks: throughput-optimal operation of reconfigurable switches, their throughput and fidelity regions, rate-fidelity tradeoffs across switch architectures, and capacity-driven design and operation of the networks built from them.</li>
-          <li>Models and analysis of large-scale communication networks, including sectorized wireless and sliced networks.</li>
+          <li>Characterized the capacity region of quantum entanglement switches with limited memory and decoherence, and designed throughput-optimal scheduling and memory-allocation policies (IEEE JSAC 2024, IEEE Commun. Lett. 2023, IFIP Networking 2023, SIGMETRICS 2023 workshop).</li>
+          <li>Compared all-photonic and memory-equipped switch architectures through their rate–fidelity tradeoffs (QCNC 2026), and developed a capacity-driven framework for the design and operation of quantum networks built from such devices.</li>
+          <li>Modeled and analyzed large-scale classical networks, including sectorized wireless and sliced networks, designing frameworks that enlarge the throughput region, improve routing efficiency, and support incentive-compatible resource allocation (IEEE ToN 2025, MobiHoc 2023, INFOCOM 2023, CDC 2024).</li>
         </ul>
       </div>
     </div>
@@ -50,7 +51,7 @@ import Base from '../layouts/Base.astro';
       <div class="cv-what">
         <strong>Applied Scientist Intern</strong>
         <span class="where">Amazon, Transportation Services</span>
-        <ul><li>A queueing-theoretic framework and digital-twin simulator for trailer operations, modeling facilities as a network of queues to optimize control policies.</li></ul>
+        <ul><li>Designed a queueing-theoretic framework and digital-twin simulator for trailer operations, modeling facilities as a network of queues to optimize control policies and reduce trailer leasing and operating costs.</li></ul>
       </div>
     </div>
     <div class="cv-item">
@@ -58,7 +59,7 @@ import Base from '../layouts/Base.astro';
       <div class="cv-what">
         <strong>Ph.D. Research Intern</strong>
         <span class="where">Cisco Systems</span>
-        <ul><li>A measurement-based distributed quantum computing framework that compiles algorithms into two-qubit gates and measurements while minimizing network cost and quantum memory.</li></ul>
+        <ul><li>Designed a measurement-based distributed quantum computing framework that compiles quantum algorithms into two-qubit gates and measurements while minimizing network communication cost and required quantum memories.</li></ul>
       </div>
     </div>
     <div class="cv-item">
@@ -66,7 +67,7 @@ import Base from '../layouts/Base.astro';
       <div class="cv-what">
         <strong>Ph.D. Research Intern</strong>
         <span class="where">Cisco Systems</span>
-        <ul><li>A gate-based distributed quantum computing compiler that translates a circuit into operations native to multiple processors, jointly optimizing entanglement generation, routing and teleportation.</li></ul>
+        <ul><li>Developed a gate-based distributed quantum computing compiler that translates a quantum circuit into physical operations native to multiple QPUs, jointly optimizing entanglement generation, routing, and teleportation to minimize expected execution time (IEEE ICC 2025, J. Quantum Computing 2025).</li></ul>
       </div>
     </div>
     <div class="cv-item">
@@ -74,7 +75,7 @@ import Base from '../layouts/Base.astro';
       <div class="cv-what">
         <strong>Research Assistant</strong>
         <span class="where">Network Management and Optimal Design Laboratory, National Technical University of Athens</span>
-        <ul><li>Satisfaction-game models of multi-user resource sharing, the minimum efficient satisfaction equilibrium, and distributed dynamics that provably converge to it.</li></ul>
+        <ul><li>Modeled multi-user systems that share a common pool of resources using satisfaction games, introduced the <em>minimum efficient satisfaction equilibrium</em>, and designed distributed dynamics that provably converge to it and outperform Nash equilibria in common-pool and wireless resource-allocation use cases (IEEE TAC 2025, IEEE/ACM ToN 2021, IEEE TCNS 2021, WMNC 2019 Best Paper).</li></ul>
       </div>
     </div>
   </section>
@@ -85,14 +86,14 @@ import Base from '../layouts/Base.astro';
       <div class="cv-when">Jan to May 2022</div>
       <div class="cv-what">
         <strong>Graduate Teaching Fellow</strong>
-        <span class="where">EENG 310, Signals and Systems, Yale University</span>
+        <span class="where">EENG 310: Signals and Systems, Yale University</span>
       </div>
     </div>
     <div class="cv-item">
       <div class="cv-when">Summer 2025 to present</div>
       <div class="cv-what">
         <strong>Arda Kara</strong>
-        <span class="where">Research intern, Yale University. B.S. in Electrical and Electronics Engineering, Bilkent University, now an M.S. student.</span>
+        <span class="where">Research intern, Yale University. B.S. in Electrical and Electronics Engineering, Bilkent University (now M.S. student).</span>
         <ul><li>Ongoing work on a modular compiler for distributed quantum computing: separate components for network operation and routing, qubit mapping, and per-QPU compilation, coordinated by a discrete-event orchestrator so that compilation scales with the network.</li></ul>
       </div>
     </div>
@@ -127,32 +128,38 @@ import Base from '../layouts/Base.astro';
   <section class="wrap cv-section" id="awards" aria-labelledby="awards-h">
     <h2 id="awards-h">Honors and awards</h2>
     <div class="cv-list">
-      <div><strong>Onassis Foundation Scholarship</strong> for graduate studies in electrical engineering, 2023 to 2026.</div>
-      <div><strong>A.G. Leventis Foundation Scholarship</strong> for graduate studies in electrical engineering, 2021 to 2024.</div>
-      <div><strong>Bodossaki Foundation Scholarship</strong> for graduate studies in electrical engineering, 2021 to 2025.</div>
-      <div><strong>Gerondelis Foundation Award</strong> for academic excellence, 2020 to 2021.</div>
-      <div><strong>NTUA Special Account for Research Funding Scholarship</strong> for academic excellence, 2019 to 2020.</div>
-      <div><strong>Space Hellas “Dimitris Manolopoulos” Scholarship</strong> for academic excellence, 2019.</div>
-      <div><strong>Best Paper Award</strong>, IFIP Wireless and Mobile Networking Conference, 2019.</div>
-      <div><strong>Three NTUA Thomaidion Awards</strong> for publications on satisfaction equilibria and wireless resource management, 2019 to 2022.</div>
+      <div><strong>Onassis Foundation Scholarship</strong> for graduate studies in Electrical Engineering (2023 to 2026).</div>
+      <div><strong>A.G. Leventis Foundation Scholarship</strong> for graduate studies in Electrical Engineering (2021 to 2024).</div>
+      <div><strong>Bodossaki Foundation Scholarship</strong> for graduate studies in Electrical Engineering (2021 to 2025).</div>
+      <div><strong>Gerondelis Foundation Award</strong> for Academic Excellence (2020 to 2021).</div>
+      <div><strong>NTUA Special Account for Research Funding Scholarship</strong> for Academic Excellence (2019 to 2020).</div>
+      <div><strong>Space Hellas “Dimitris Manolopoulos” Scholarship</strong> for Academic Excellence (Dec. 2019).</div>
+      <div><strong>Best Paper Award</strong> at the 12th IFIP Wireless and Mobile Networking Conference (WMNC 2019) for the paper “Redesigning Resource Management in Wireless Networks based on Games in Satisfaction Form” (Sept. 2019).</div>
+      <div><strong>Three NTUA Thomaidion Awards</strong> for three publications on satisfaction equilibria and wireless resource management (2019 to 2022).</div>
     </div>
   </section>
 
   <section class="wrap cv-section" id="service" aria-labelledby="service-h">
     <h2 id="service-h">Academic service</h2>
     <div class="cv-list">
-      <div>Reviewer for IEEE JSAC, IEEE/ACM Transactions on Networking, IEEE Transactions on Communications, IEEE Transactions on Quantum Engineering, IEEE Communications Magazine, IEEE Access, WiOpt, MILCOM and SPAWC.</div>
+      <div>Reviewer for IEEE JSAC, IEEE/ACM Transactions on Networking, IEEE Transactions on Communications, IEEE Transactions on Quantum Engineering, IEEE Communications Magazine, IEEE Access, WiOpt, MILCOM, and SPAWC.</div>
     </div>
   </section>
 
   <section class="wrap cv-section" id="skills" aria-labelledby="skills-h">
-    <h2 id="skills-h">Skills and languages</h2>
+    <h2 id="skills-h">Technical skills</h2>
     <div class="cv-list">
-      <div><strong>Networks.</strong> Quantum networks, distributed quantum computing, quantum network control, network optimization, resource allocation.</div>
-      <div><strong>Optimization and learning.</strong> Mathematical modeling, algorithm design, stochastic and queueing optimization, reinforcement learning, game theory, approximation and heuristic algorithms.</div>
-      <div><strong>Programming.</strong> Python (including PyTorch, CVXPY, NetworkX and SimPy), Java, C and C++, Julia, Matlab, R.</div>
-      <div><strong>Software.</strong> <a href="https://github.com/ppromponas/CompilerDQC">CompilerDQC</a>, an open-source reinforcement-learning compiler and simulation environment for distributed quantum computing (Python, MIT license).</div>
-      <div><strong>Languages.</strong> Greek, native. English, fluent.</div>
+      <div><strong>Methods.</strong> Mathematical modeling, stochastic and queueing optimization, scheduling and resource allocation, reinforcement learning, game theory and mechanism design, approximation and heuristic algorithms.</div>
+      <div><strong>Programming.</strong> Python (incl. PyTorch, CVXPY, NetworkX, SimPy), Java, C/C++, Julia, Matlab, R.</div>
+      <div><strong>Software.</strong> <a href="https://github.com/ppromponas/CompilerDQC">CompilerDQC</a>: open-source reinforcement-learning compiler and simulation environment for distributed quantum computing (Python, MIT license).</div>
+    </div>
+  </section>
+
+  <section class="wrap cv-section" id="languages" aria-labelledby="languages-h">
+    <h2 id="languages-h">Languages</h2>
+    <div class="cv-list">
+      <div><strong>Greek.</strong> Native.</div>
+      <div><strong>English.</strong> Fluent (C2; Certificate of Proficiency, Univ. of Michigan).</div>
     </div>
   </section>
 </Base>
