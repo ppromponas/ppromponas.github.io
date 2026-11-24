@@ -4,6 +4,17 @@
 # selected (shown on the home page), badge (award, spotlight), links (pdf, arxiv, doi, ieee, code).
 # pdf paths point into /papers/ once the PDFs are copied there.
 
+- id: distill26
+  title: "Online Scheduling for Entanglement Distillation: Learning When to Wait"
+  authors: P. Promponas, S. Tserkis, and L. Tassiulas
+  year: 2026
+  type: preprint
+  venue: arXiv preprint
+  pillar: quantum-networks
+  thread: entanglement-distillation
+  links:
+    arxiv: https://arxiv.org/abs/2611.28373
+
 - id: qcnc26
   title: Rate-Fidelity Tradeoffs in All-Photonic and Memory-Equipped Quantum Switches
   authors: P. Promponas, L. Bacciottini, P. Polakos, G. Vardoyan, D. Towsley, and L. Tassiulas

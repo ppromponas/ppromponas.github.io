@@ -1,7 +1,7 @@
 ---
 title: Network design and control
 pillar: quantum-networks
-order: 2
+order: 3
 summary: Where to place sources and swap units on a fiber network, and how to operate them.
 # The capacity-driven video is held back until the paper is public. The files live outside
 # the repo in ~/Documents/profile_project/unpublished/media/ (capacity-driven-design.mp4 and
