@@ -25,9 +25,14 @@ const threads = defineCollection({
       .object({
         type: z.enum(['video', 'demo', 'image']),
         src: z.string().optional(),
+        tag: z.string().optional(), // demo only: the custom element that the script in `src` defines
+        frame: z.boolean().optional(), // demo only: false puts it on the page without the white card
         poster: z.string().optional(),
         caption: z.string().optional(),
         duration: z.string().optional(),
+      })
+      .refine((m) => m.type !== 'demo' || (!!m.src && !!m.tag), {
+        message: 'A demo needs both `src` (its script) and `tag` (its custom element).',
       })
       .optional(),
     draft: z.boolean().optional(),

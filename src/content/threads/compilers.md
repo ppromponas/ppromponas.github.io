@@ -6,6 +6,7 @@ summary: From a circuit to physical operations across several processors.
 media:
   type: demo
   src: /media/dqc-compiler.js
+  tag: dqc-compiler
   caption: "The modeling environment proposed in the paper, executing a circuit across two processors. Play it, step through it, or scrub the timeline."
 ---
 

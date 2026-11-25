@@ -23,13 +23,17 @@ const sections = await Promise.all(
     t,
     Content: (await render(t)).Content,
     papers: pubs.filter((p) => p.data.thread === t.id).sort((a, b) => b.data.year - a.data.year),
+    // A demo is a custom element: `media.tag` names it and the script in `media.src` defines it.
+    Demo: t.data.media?.type === 'demo' ? t.data.media.tag : undefined,
   })),
 );
-const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
+// One script per demo on this page. They stay classic scripts (is:inline): a demo may read its own
+// URL to find the files next to it, which a bundled or module script cannot do.
+const demoScripts = [...new Set(threads.filter((t) => t.data.media?.type === 'demo').map((t) => t.data.media!.src!))];
 ---
 
 <Base title={`${pillar.data.title} · Panagiotis Promponas`} description={pillar.data.lead}>
-  {needsDemo && <script slot="head" is:inline src="/media/dqc-compiler.js"></script>}
+  {demoScripts.map((src) => <script slot="head" is:inline src={src}></script>)}
 
   <section class="wrap page-hero">
     <div class="eyebrow">Research</div>
@@ -42,7 +46,7 @@ const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
     {threads.map((t) => <a href={`#${t.id}`}>{t.data.title}</a>)}
   </nav>
 
-  {sections.map(({ t, Content, papers }) => (
+  {sections.map(({ t, Content, papers, Demo }) => (
     <section class="wrap thread" id={t.id} aria-labelledby={`${t.id}-h`}>
       {t.data.draft && <span class="draft-note">Draft</span>}
       <h2 id={`${t.id}-h`}>{t.data.title}</h2>
@@ -59,10 +63,10 @@ const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
         </figure>
       )}
 
-      {t.data.media?.type === 'demo' && (
-        <figure class="figure">
-          <div class="demo"><dqc-compiler theme="auto"></dqc-compiler></div>
-          <figcaption><span>{t.data.media.caption}</span><span>Interactive</span></figcaption>
+      {Demo && (
+        <figure class:list={['figure', { bare: t.data.media?.frame === false }]}>
+          <div class="demo"><Demo theme="auto"></Demo></div>
+          <figcaption><span>{t.data.media?.caption}</span><span>Interactive</span></figcaption>
         </figure>
       )}
 
@@ -77,11 +81,28 @@ const needsDemo = threads.some((t) => t.data.media?.type === 'demo');
 </Base>
 
 <script>
-  // Keep the embedded demo in step with the site theme toggle.
+  // Keep every embedded demo in step with the site theme toggle.
   function apply(theme: string) {
-    document.querySelectorAll('dqc-compiler').forEach((el) => el.setAttribute('theme', theme));
+    document.querySelectorAll('.demo > *').forEach((el) => el.setAttribute('theme', theme));
   }
   const saved = document.documentElement.getAttribute('data-theme');
   if (saved) apply(saved);
   document.addEventListener('themechange', (e) => apply((e as CustomEvent<string>).detail));
+
+  // A page opened on a thread (#id) scrolls there at once, but a demo above that thread still grows
+  // when its data arrives, and the scroll then stops short of the heading. Once everything has loaded,
+  // go to the thread again, unless the visitor has already moved or the browser is restoring an earlier
+  // position (reload, back). The scroll stays animated like the first one: an instant jump while that
+  // one is still running leaves Chrome a few pixels off.
+  const arrival = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined;
+  if (location.hash.length > 1 && arrival?.type === 'navigate' && document.readyState !== 'complete') {
+    let moved = false;
+    const stop = () => { moved = true; };
+    const kinds = ['wheel', 'touchstart', 'pointerdown', 'keydown'];
+    kinds.forEach((k) => addEventListener(k, stop, { passive: true, once: true }));
+    addEventListener('load', () => {
+      kinds.forEach((k) => removeEventListener(k, stop));
+      if (!moved) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    }, { once: true });
+  }
 </script>

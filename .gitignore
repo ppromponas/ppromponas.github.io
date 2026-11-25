@@ -7,3 +7,8 @@ npm-debug.log*
 
 # Held-back material lives outside the repo, in ../unpublished. Never commit it.
 unpublished/
+
+# The distillation demo folder is copied here whole from its research project. Its working notes and
+# its local test page are not part of the site; they are kept in ../animations/distillation-demo/.
+public/media/distillation-demo/README.md
+public/media/distillation-demo/index.html

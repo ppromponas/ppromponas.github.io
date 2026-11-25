@@ -24,7 +24,20 @@ Create `src/content/pillars/<id>.md` with `title`, `order`, `lead` and `illustra
 
 ## Media
 
-Public media (videos, posters, the compiler demo script) lives in `public/media/` and is served as is. Material that must stay private lives outside the repo in `../unpublished/`.
+Public media (videos, posters, the demo scripts) lives in `public/media/` and is served as is. Material that must stay private lives outside the repo in `../unpublished/`.
+
+A demo is a custom element. Its thread names the script that defines it and the element itself:
+
+```yaml
+media:
+  type: demo
+  src: /media/distillation-demo/distillation-demo.js   # loaded as a classic script on that area page
+  tag: distillation-demo                               # the element the script defines
+  frame: false                                         # optional: no white card around the demo
+  caption: "…"
+```
+
+The area page sets `theme="light"` or `theme="dark"` on the element when the site theme changes. The distillation demo is the folder `public/media/distillation-demo/` (the script and `weights/`), copied from its research project. Its README and local test page are not published (see `.gitignore`); they are kept in `../animations/distillation-demo/`.
 
 ## Deploy
 

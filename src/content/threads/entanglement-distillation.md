@@ -3,6 +3,12 @@ title: Entanglement distillation
 pillar: quantum-networks
 order: 2
 summary: When to wait for a distillation outcome and when to continue, while stored pairs decohere.
+media:
+  type: demo
+  src: /media/distillation-demo/distillation-demo.js
+  tag: distillation-demo
+  frame: false
+  caption: "The same link scheduled twice: on the left by a baseline that always or never waits, or by you, and on the right by the learned policy."
 ---
 
 The entangled pairs that a link produces are noisy. Entanglement distillation consumes several of them to obtain one of higher fidelity. It proceeds in steps that can fail, and each step is confirmed by a classical message. The stored pairs decohere while this message crosses the network. After every step the nodes therefore choose between waiting for the message and continuing at the risk that the step has failed.
