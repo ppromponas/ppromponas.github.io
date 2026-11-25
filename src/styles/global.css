@@ -236,6 +236,15 @@ p { margin: 0; }
 .foot .name { color: var(--ink); }
 .foot-note { margin-top: 28px; font-size: 12.5px; color: var(--muted); }
 
+/* ---------- Side gutters ---------- */
+/* The sections above set their top and bottom padding with the shorthand, which also removes the side
+   padding of .wrap. Give the 32px gutter back wherever the window is narrower than the content plus its
+   gutters (1184px). From that width up nothing changes; below 860px the rule further down sets 20px. */
+.section, .page-hero, .subnav, .thread, .cv-section {
+  padding-left: clamp(0px, calc(592px - 50vw), 32px);
+  padding-right: clamp(0px, calc(592px - 50vw), 32px);
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .wrap { padding-left: 20px; padding-right: 20px; }
